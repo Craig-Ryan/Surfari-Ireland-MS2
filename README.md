@@ -8,7 +8,16 @@ This project's aim is to provide an interactive webstite that allows users to se
 ## Table of contents:
 > - [UX](#ux)
 > - [User Stories](#user-stories)
-   
+> - [Features](#features)
+> - [Existing Features](#existing-features)
+> - [Features Left to Implement](#features-left-to-implement)
+> - [Technologies Used](#technologies-used)
+> - [Testing](#testing)
+> - [Deployment](#deployment)
+> - [Credits](#credits)
+> - [Content](#content)   
+> - [Media](#media)  
+> - [Acknowledgements](#acknowledgements)  
 
 
 
@@ -26,21 +35,30 @@ This project aims to provide surfers or people interested in learning to surf wi
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
 As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### Wireframes
 
-Features
+## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+### Existing Features
+> - 
+> - 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-Features Left to Implement
+### Features Left to Implement
+> - 
+> - 
 Another feature idea
-Technologies Used
+
+
+## Technologies Used
+### Languages Used:
+> [HTML5](https://en.wikipedia.org/wiki/HTML5)
+>
+> [CSS3](https://en.wikipedia.org/wiki/CSS)
+>
+> [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 JQuery
