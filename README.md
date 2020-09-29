@@ -59,12 +59,16 @@ Another feature idea
 > [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 
+### Libraries Used:
+> [jQuery]
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+> - [Git](https://git-scm.com/) - Used for version control and making changes to code files.
+> - [Github](https://github.com/) - Used to host the Git repositories for this project on the cloud.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
@@ -80,8 +84,22 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Resources
+> - [Global Surfari](https://safaritownsurf.com/shop/books/global-surfari) - Original book and inspiration for this project.
+> - [TinyPng](https://tinypng.com/) - Resource for scaling down image sizes to load faster on the site.
+> - [YouTube](https://www.youtube.com/) - For additional advice when building this project.
+> - [Balsamiq](https://balsamiq.com/) - For designing the desired outcome of this project.
 
-Deployment
+## Testing
+
+### Issues Encountered
+
+## Version Control
+
+
+## Code Validation
+
+## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -91,10 +109,10 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Credits
-Content
+## Credits
+### Content
 The text for section Y was copied from the Wikipedia article Z
-Media
+### Media
 The photos used in this site were obtained from ...
-Acknowledgements
+### Acknowledgements
 I received inspiration for this project from X
