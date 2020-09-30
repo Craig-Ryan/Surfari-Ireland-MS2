@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -6,20 +6,19 @@ body {
 /* ---------------- Navbar ----------------- */
 .navbar-brand img {
     background-color: #fff;
-    border: 1px solid #000;
     border-radius: 8%;
-    width: 100px;
+    margin: 10px;
+    width: 125px;
 }
 
 .navbar-brand {
     position: relative;
-    top: 5px;
-    left: 50%;
     transform: translateX(-50%);
-}
+    left: 50%;
+/* }
 
 .navbar {
-    padding: 1rem;
+    padding: 0;
 }
 
 .navbar-toggler {
@@ -30,7 +29,8 @@ body {
 .banner {
     padding-left: 60px;
     padding-right: 60px;
-}
+} */
+
 
 /* ---------------- Hero Image ----------------- */
 
