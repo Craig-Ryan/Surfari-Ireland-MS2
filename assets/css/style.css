@@ -8,14 +8,14 @@
     background-color: #fff;
     border-radius: 8%;
     margin: 10px;
-    width: 125px;
+    width: 130px;
 }
 
 .navbar-brand {
     position: relative;
     transform: translateX(-50%);
     left: 50%;
-/* }
+}
 
 .navbar {
     padding: 0;
@@ -27,9 +27,9 @@
 }
 
 .banner {
-    padding-left: 60px;
-    padding-right: 60px;
-} */
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
 
 /* ---------------- Hero Image ----------------- */
@@ -43,3 +43,6 @@
 /* ---------------- Footer ----------------- */
 
 /* ---------------- Media Queries ----------------- */
+@media only screen and (max-width: 1024px;) {
+    
+}
