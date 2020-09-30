@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------- Navbar ----------------- */
+.navbar-brand img {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 8%;
+    width: 100px;
+}
+
+.navbar-brand {
+    position: relative;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.banner {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* ---------------- Hero Image ----------------- */
+
+/* ---------------- About Section ----------------- */
+
+/* ---------------- Forecast Section ----------------- */
+
+/* ---------------- Contact Form ----------------- */
+
+/* ---------------- Footer ----------------- */
+
+/* ---------------- Media Queries ----------------- */
