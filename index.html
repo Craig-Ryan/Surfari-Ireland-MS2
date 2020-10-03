@@ -17,8 +17,8 @@
 
 <body>
 	<!-- Navbar -->
-	<div class="banner">
-		<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
+		<div class="container-fluid">
 			<a class="navbar-brand" href="index.html"><img src="assets/images/logo2.png" alt="Surfari Ireland Logo"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,21 +26,21 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="#">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">About</a>
+							<a class="nav-link" href="#about">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Surf Forecast</a>
+							<a class="nav-link" href="#forecast">Surf Forecast</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
+							<a class="nav-link" href="#contact">Contact</a>
 						</li>
 					</ul>
 				</div>
-		</nav>
-	</div>
+		</div>
+	</nav>
 
 	<!-- Hero Image -->
 	<!-- Carousel Code from https://getbootstrap.com/docs/4.0/components/carousel/ -->
@@ -79,74 +79,87 @@
 	</div>
 
 	<!-- About Section -->
-	<div class="container-fluid padding">
-		<div class="row welcome text-center">
-			<div class="col-12">
-				<h1 class="display-4">About</h1>
-			</div>
-			<hr>
-			<div class="col-12">
-				<p class="lead">Surfari Ireland provides you with current and upcoming surf-forecasts at various Irish
-					surf spots.</p>
-			</div>
-		</div>
-	</div>
-	<!-- Forecast Section -->
-	<div class="container-fluid padding" id="forecast">
-		<div class="row welcome text-center">
-			<div class="col-12">
-				<h1 class="display-4">Surf Reports</h1>
-			</div>
-			<hr>
-			<div class="col-12">
-				<p class="lead">Choose from the options below to generate the surf report for a surf spot.</p>
-			</div>
-		</div>
-		<hr>
-		<div id="surf-reports">
-
-		</div>
-	</div>
-	<!-- Contact Form -->
-	<div class="container padding">
-		<div class="row text-center">
-        <div class="col-12">
-            <h1 class="display-4">Get in touch</h1>
-            <p class="lead">Have anything you'd like to ask us?<br>
-            Don't hesitate to contact us.</p>
-        </div>
-		</div>
-        <div class="row">
-			<form>
-				<div class="form-group">
-					<label for="name">Name</label>
-					<input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Your Name">
+	<section id="about">
+		<div class="container-fluid padding">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h1 class="display-4">About</h1>
 				</div>
-				<div class="form-group">
-					<label for="email">Email</label>
-					<input type="email" class="form-control" id="email" placeholder="Your Email Address">
-                </div>
-                <div class="form-group">
-					<label for="comments">Your Comments</label>
-                    <textarea class="form-control" id="comments" rows="5"></textarea>
-                </div>
-					<button type="submit" class="btn btn-primary">Submit</button>
-			</form>
+				<hr>
+				<div class="col-12">
+					<p class="lead">Surfari Ireland provides you with current and upcoming surf-forecasts at various
+						Irish
+						surf spots.</p>
+				</div>
+			</div>
 		</div>
-	</div>
+	</section>
+	<!-- Forecast Section -->
+	<section id="forecast">
+		<div class="container-fluid padding">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h1 class="display-4">Surf Reports</h1>
+				</div>
+				<hr>
+				<div class="col-12">
+					<p class="lead">Choose from the options below to generate the surf report for a surf spot.</p>
+				</div>
+			</div>
+			<hr>
+			<div id="surf-reports">
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact Form -->
+	<section id="contact">
+		<div class="container padding">
+			<div class="row text-center">
+				<div class="col-12">
+					<h1 class="display-4">Get in touch</h1>
+					<p class="lead">Have anything you'd like to ask us?<br>
+            Don't hesitate to contact us.</p>
+				</div>
+			</div>
+			<div class="row">
+				<form>
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Your Name">
+				</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" class="form-control" id="email" placeholder="Your Email Address">
+                </div>
+							<div class="form-group">
+								<label for="comments">Your Comments</label>
+								<textarea class="form-control" id="comments" rows="5"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+	</section>
 
 	<!-- Footer -->
+	<footer>
+		<div class="container-fluid padding text-center">
+			<p>&copy; 2020 Copyright Surfari Ireland</p>
+		</div>
+	</footer>
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
 </body>
 
