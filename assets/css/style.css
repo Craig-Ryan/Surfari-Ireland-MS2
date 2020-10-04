@@ -23,6 +23,10 @@
 
 /* ---------------- Hero Image ----------------- */
 
+.carousel-inner {
+    max-height: 38rem!important;
+}
+
 /* ---------------- About Section ----------------- */
 
 /* ---------------- Forecast Section ----------------- */
