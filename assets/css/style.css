@@ -24,7 +24,11 @@
 /* ---------------- Hero Image ----------------- */
 
 .carousel-inner {
-    max-height: 38rem!important;
+    max-height: auto;
+}
+
+.carousel-inner img {
+    
 }
 
 /* ---------------- About Section ----------------- */

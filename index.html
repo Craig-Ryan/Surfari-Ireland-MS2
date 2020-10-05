@@ -17,9 +17,9 @@
 
 <body>
 	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="index.html"><img src="assets/images/logo2.png" alt="Surfari Ireland Logo"></a>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+		<div class="container">
+			<a class="navbar-brand mx-0" href="index.html"><img src="assets/images/logo2.png" alt="Surfari Ireland Logo"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -44,14 +44,18 @@
 
 	<!-- Hero Image -->
 	<!-- Carousel Code from https://getbootstrap.com/docs/4.0/components/carousel/ -->
-	<div id="images-main" class="carousel slide" data-ride="carousel">
+	<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
 		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img class="w-100" src="assets/images/surf4.jpg" alt="First slide" >
+			<div class="d-block carousel-item active">
+				<img src="assets/images/surf4.jpg" alt="First slide" class="w-100">
 				<div class="carousel-caption">
+                <div class="container">
+                <div class="row justify-content-center">
 					<h1 class="display1">Surfari Ireland</h1>
 					<h3>Current and future surf reports are just a click away</h3>
 					<a href="#forecast" type="button" class="btn btn-lg btn-outline-light">Get surf reports now!</a>
+                </div>
+                </div>
 				</div>
 			</div>
 			<div class="carousel-item">
