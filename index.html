@@ -19,66 +19,101 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
 		<div class="container">
-			<a class="navbar-brand mx-0" href="index.html"><img src="assets/images/logo2.png" alt="Surfari Ireland Logo"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#forecast">Surf Forecast</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact">Contact</a>
-						</li>
-					</ul>
-				</div>
+			<a href="index.html" class="navbar-brand"><!--<img src="assets/images/logo2.png" alt="Surfari Ireland Logo">-->Surfari Ireland</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#forecast">Surf Forecast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
 		</div>
 	</nav>
+    <!-- End Navbar -->
 
-	<!-- Hero Image -->
+	<!-- Image Carousel -->
 	<!-- Carousel Code from https://getbootstrap.com/docs/4.0/components/carousel/ -->
-	<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+	<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+        <!--Carousel Content-->
 		<div class="carousel-inner">
-			<div class="d-block carousel-item active">
-				<img src="assets/images/surf4.jpg" alt="First slide" class="w-100">
-				<div class="carousel-caption">
-                <div class="container">
-                <div class="row justify-content-center">
-					<h1 class="display1">Surfari Ireland</h1>
-					<h3>Current and future surf reports are just a click away</h3>
-					<a href="#forecast" type="button" class="btn btn-lg btn-outline-light">Get surf reports now!</a>
+			<div class="carousel-item active">
+				<img src="assets/images/surf4.jpg" alt="First slide" class="d-block w-100">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8 d-none d-md-block py-3 px-0">
+                                <h1 class="display1">Surfari Ireland</h1>
+                                <div class="border-top border-primary w-50 mx-auto my-3"></div>
+                                <h3>Current and future surf reports are just a click away</h3>
+                                <a href="#forecast" type="button" class="btn btn-lg btn-outline-light">Get surf reports now!</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+			</div>
+
+            <div class="carousel-item">
+				<img src="assets/images/surf8.jpg" alt="First slide" class="d-block w-100 h-42">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8 d-none d-md-block py-3 px-0">
+                                <h1 class="display1">Surfari Ireland</h1>
+                                <div class="border-top border-primary w-50 mx-auto my-3"></div>
+                                <h3>Current and future surf reports are just a click away</h3>
+                                <a href="#forecast" type="button" class="btn btn-lg btn-outline-light">Get surf reports now!</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-				</div>
 			</div>
-			<div class="carousel-item">
-				<img class="w-100" src="assets/images/surf8.jpeg" alt="Second slide">
-				<div class="carousel-caption">
-					<h1 class="display1">Surfari Ireland</h1>
-					<h3>Current and future surf reports are just a click away</h3>
-				</div>
+
+            <div class="carousel-item">
+				<img src="assets/images/surf9.jpg" alt="First slide" class="d-block w-100">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8 d-none d-md-block py-3 px-0">
+                                <h1 class="display1">Surfari Ireland</h1>
+                                <div class="border-top border-primary w-50 mx-auto my-3"></div>
+                                <h3>Current and future surf reports are just a click away</h3>
+                                <a href="#forecast" type="button" class="btn btn-lg btn-outline-light">Get surf reports now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
-			<div class="carousel-item">
-				<img class="w-100" src="assets/images/surf9.jpg" alt="Third slide">
-				<div class="carousel-caption">
-					<h1 class="display1">Surfari Ireland</h1>
-					<h3>Current and future surf reports are just a click away</h3>
-				</div>
+
+            <div class="carousel-item">
+				<img src="assets/images/surf10.jpg" alt="First slide" class="d-block w-100">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8 d-none d-md-block py-3 px-0">
+                                <h1 class="display1">Surfari Ireland</h1>
+                                <div class="border-top border-primary w-50 mx-auto my-3"></div>
+                                <h3>Current and future surf reports are just a click away</h3>
+                                <a href="#forecast" type="button" class="btn btn-lg btn-outline-light">Get surf reports now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
-			<div class="carousel-item">
-				<img class="w-100" src="assets/images/surf10.jpg" alt="Third slide">
-				<div class="carousel-caption">
-					<h1 class="display1">Surfari Ireland</h1>
-					<h3>Current and future surf reports are just a click away</h3>
-				</div>
-			</div>
+
+            
+			
 		</div>
 	</div>
 
@@ -94,7 +129,8 @@
 				<div class="col-12">
 					<p class="lead">Surfari Ireland provides you with current and upcoming surf-forecasts at various
 						Irish
-						surf spots.</p>
+						surf spots.
+                    </p>
 				</div>
 			</div>
 		</div>

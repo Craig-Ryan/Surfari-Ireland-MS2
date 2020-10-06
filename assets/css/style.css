@@ -4,12 +4,12 @@
 }
 
 /* ---------------- Navbar ----------------- */
-.navbar-brand img {
+/* .navbar-brand img {
     background-color: #fff;
     border-radius: 8%;
     margin: 10px;
-    width: 130px;
-}
+    width: 90px;
+} */
 
 .navbar {
     padding: 0;
@@ -24,11 +24,18 @@
 /* ---------------- Hero Image ----------------- */
 
 .carousel-inner {
-    max-height: auto;
+    max-height: 38rem!important;
 }
 
-.carousel-inner img {
-    
+.carousel-item.active,
+.carousel-item {
+    transition: transform 1.2s ease; 
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* ---------------- About Section ----------------- */
