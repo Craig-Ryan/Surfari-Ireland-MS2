@@ -1,6 +1,7 @@
-* {
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 /* ---------------- Navbar ----------------- */
@@ -26,21 +27,28 @@
 }
 
 
-/* ---------------- Hero Image ----------------- */
+/* ---------------- Carousel Images ----------------- */
 
 .carousel-inner {
-    max-height: 38rem!important;
+    height: 100%; /*Seems to have solved the height issue on desktop view*/
+    
 }
 
 .carousel-item.active,
 .carousel-item {
     transition: transform 1.2s ease; 
+    height: 100%;
 }
 
 .carousel-caption {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.bg-custom {
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 1rem;
 }
 
 /* ---------------- About Section ----------------- */
@@ -64,6 +72,10 @@ footer img {
 footer p {
     color: #fff;
     padding-bottom: 0;
+}
+
+.logo {
+    border-radius: 1rem;
 }
 
 /* ---------------- Media Queries ----------------- */
