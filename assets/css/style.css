@@ -30,14 +30,17 @@ html, body {
 /* ---------------- Carousel Images ----------------- */
 
 .carousel-inner {
-    height: 100%; /*Seems to have solved the height issue on desktop view*/
-    
+    height: 100vh; /*Seems to have solved the height issue on desktop view*/
 }
 
 .carousel-item.active,
 .carousel-item {
-    transition: transform 1.2s ease; 
-    height: 100%;
+    transition: transform 1.4s ease; 
+    
+}
+
+img {
+    vertical-align: middle;
 }
 
 .carousel-caption {
@@ -52,6 +55,8 @@ html, body {
 }
 
 /* ---------------- About Section ----------------- */
+
+
 
 /* ---------------- Forecast Section ----------------- */
 
