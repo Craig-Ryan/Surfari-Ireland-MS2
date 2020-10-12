@@ -11,11 +11,13 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 	<!-- CSS Stylesheet -->
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/fixed.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 	<title>Surfari Ireland</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarResponsive">
+<section id="home">
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
 		<div class="container">
@@ -26,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -45,6 +47,7 @@
 
 	<!-- Image Carousel -->
 	<!-- Carousel Code from https://getbootstrap.com/docs/4.0/components/carousel/ -->
+   
     <div class="container-fluid px-0">
 	<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
         <!--Carousel Content-->
@@ -134,7 +137,7 @@
 		</div>
 	</div>
     </div>
-
+    </section>
 	<!-- About Section -->
 	<section id="about">
 		<div class="container-fluid padding">
@@ -220,15 +223,9 @@
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

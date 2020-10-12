@@ -19,6 +19,16 @@ html, body {
 .navbar {
     font-size: 1.3rem;
     letter-spacing: .15rem;
+    background-color: rgba(0, 0, 0, .4)!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #b2deec;
 }
 
 .navbar-toggler {
@@ -37,10 +47,6 @@ html, body {
 .carousel-item {
     transition: transform 1.4s ease; 
     
-}
-
-img {
-    vertical-align: middle;
 }
 
 .carousel-caption {
@@ -90,7 +96,7 @@ footer p {
 
 
 @media (max-width: 768px) {
-    
+
 }
 
 @media (max-width: 425px) {
