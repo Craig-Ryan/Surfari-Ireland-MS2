@@ -39,6 +39,10 @@ html, body {
 
 /* ---------------- Carousel Images ----------------- */
 
+#carousel {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+
 .carousel-inner {
     height: 100vh; /*Seems to have solved the height issue on desktop view*/
 }
@@ -60,11 +64,51 @@ html, body {
     border-radius: 1rem;
 }
 
+.home-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    left: 50%;
+    padding: 1rem;
+    border-radius: 1.5%;
+}
+
+.home-caption h1 {
+    font-family: 3rem;
+    text-shadow: .5rem .5rem .5rem #000;
+    color: #fff;
+    
+}
+
+.home-caption h3 {
+    font-family: 1.7rem;
+    text-shadow: .5rem .5rem .5rem #000;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.btn-lg {
+    font-size: 1.4rem;
+    padding: .5rem 1rem;
+    border-width: medium;
+    border-radius: 1.5%;
+}
+
 /* ---------------- About Section ----------------- */
 
+#about {
+    overflow-x: hidden;
+}
 
-
+.surfer img {
+   margin: 0 auto;
+}
 /* ---------------- Forecast Section ----------------- */
+
+.fixed {
+    background-image: url(assets/images/fixed.jpg) no-repeat center center fixed;
+    z-index: -1;
+}
 
 /* ---------------- Contact Form ----------------- */
 
@@ -106,5 +150,9 @@ footer p {
 
 .navbar-brand img {
     height: 1.5rem;
+}
+
+.carousel-inner {
+    height: auto;
 }
 }
