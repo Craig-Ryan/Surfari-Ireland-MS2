@@ -75,7 +75,6 @@
 	</div>
         <div class="home-caption text-center bg-custom d-none d-md-block">
             <h1 class="display1">Surfari Ireland</h1>
-            <div class="border-top border-custom w-25 mx-auto my-3"></div>
             <h3>Surf reports are just a click away</h3>
             <a href="#forecast" type="button" class="btn btn-lg btn-outline-light">Get surf reports now!</a>
         </div>
@@ -137,19 +136,19 @@
 				<form class="w-75 mx-auto">
 					<div class="form-group">
 						<label for="firstname">First Name:</label>
-						<input type="text" name="firstname" class="form-control" id="firstname" placeholder="First Name">
+						<input type="text" name="firstname" class="form-control" id="firstname" placeholder="First Name" required>
 				    </div>
                     <div class="form-group">
 						<label for="lastname">Last Name:</label>
-						<input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name">
+						<input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name" required>
 				    </div>
 					<div class="form-group">
 						<label for="email">Email:</label>
-						<input type="email" name="email" class="form-control" id="email" placeholder="Email Address">
+						<input type="email" name="email" class="form-control" id="email" placeholder="Email Address" required>
                     </div>
 					<div class="form-group">
 						<label for="comments">Your Comments:</label>
-						<textarea class="form-control" name="comments" id="comments" rows="5"></textarea>
+						<textarea class="form-control" name="comments" id="comments" rows="5" required></textarea>
 					</div>
                     <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -165,15 +164,17 @@
 	<!-- Footer -->
 	<footer class="pb-3">
 		<div class="container-fluid padding text-center">
-        <div class="row justify-content-center">
-            <div class="col-sm-10 col-md-8 col-lg-6">
-                <img src="assets/images/logo2.png" class="logo" alt="Surfari Ireland Logo">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-8 col-lg-6">
+                    <img src="assets/images/logo2.png" class="logo" alt="Surfari Ireland Logo">
+                </div>
             </div>
-        </div>
-			<p class="mb-0">&copy; 2020 Copyright Surfari Ireland</p>
+            <div class="container-fluid copy py-3 text-center">
+                <p class="mb-0">&copy; 2020 Copyright Surfari Ireland</p>
+            </div>
 		</div>
 	</footer>
-
+        
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
