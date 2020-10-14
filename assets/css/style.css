@@ -23,7 +23,7 @@ html, body {
 .navbar {
     font-size: 1.3rem;
     letter-spacing: .15rem;
-    background-color: rgba(0, 0, 0, .4)!important;
+    background-color: #343A40;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -47,14 +47,11 @@ html, body {
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
 }
 
-.carousel-inner {
-    height: 100vh; /*Seems to have solved the height issue on desktop view*/
-}
+
 
 .carousel-item.active,
 .carousel-item {
     transition: transform 1.4s ease; 
-    
 }
 
 .carousel-caption {
@@ -156,7 +153,7 @@ footer img {
     height: 1.5rem;
 }
 
-.carousel-inner {
-    height: auto;
-}
+/* .carousel-inner {
+    height: 92vh;
+} */
 }
