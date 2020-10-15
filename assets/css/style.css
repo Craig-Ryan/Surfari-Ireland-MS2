@@ -130,6 +130,14 @@ footer img {
     border-radius: 1rem;
 }
 
+footer li i {
+    color: #fff;
+}
+
+footer li a {
+    text-transform: none;
+}
+
 .copy {
     border-top: .1rem solid #b2deec;
 }
