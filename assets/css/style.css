@@ -130,13 +130,18 @@ footer img {
     border-radius: 1rem;
 }
 
-footer li i {
+ul.social {
     color: #fff;
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
 }
 
-footer li a {
-    text-transform: none;
+ul.social li {
+    margin: 0 auto;
 }
+
+
 
 .copy {
     border-top: .1rem solid #b2deec;
