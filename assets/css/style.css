@@ -48,11 +48,22 @@ html, body {
 }
 
 
+.carousel-fade,
+.carousel-item {
+    transition-duration: 2s; 
+    transition-property: opacity;
+    opacity: 0;
+}
 
+.carousel-fade,
 .carousel-item.active,
 .carousel-item {
-    transition: transform 1.4s ease; 
+    opacity: 1;
 }
+
+/* .carousel-fade {
+    transition: transform 1.4s ease;
+} */
 
 .carousel-caption {
     position: absolute;
@@ -116,7 +127,6 @@ html, body {
 /* ---------------- Footer ----------------- */
 
 footer {
-    color: #fff;
     background-color: #343A40;
     padding: 1rem 2rem 3rem;
 }
@@ -131,12 +141,12 @@ footer img {
 }
 
 ul.social {
-    color: #fff;
     list-style-type: none;
     display: flex;
     margin: 0 auto;
     padding: 0;
     max-width: 20rem;
+    border-radius: 1rem;
 }
 
 ul.social li {
@@ -148,7 +158,7 @@ ul.social li:hover {
     color: #b2deec;
 }
 
-footer a {
+footer a, footer p {
     color: #fff;
     margin: 0 auto;
 }
@@ -174,7 +184,7 @@ footer a:hover {
 
 @media (max-width: 425px) {
     .navbar-brand {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .navbar-brand img {
