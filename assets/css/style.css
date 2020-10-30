@@ -135,6 +135,11 @@ h2.display-4 {
     border-radius: 1rem;
     color: #fff;
     text-shadow: .1rem .1rem .5rem #000;
+    margin: 0 auto;
+}
+
+.line {
+    border-top: .15rem solid #b2deec;
 }
 
 .fixed {
@@ -154,7 +159,7 @@ footer {
 
 footer img {
     height: 10rem;
-    margin: 2rem auto;
+    margin: 1rem auto;
 }
 
 .logo {
@@ -190,7 +195,7 @@ footer a:hover {
 
 
 .copy {
-    border-top: .1rem solid #b2deec;
+    border-top: .15rem solid #b2deec;
     margin: 0 auto;
     font-family: 'Amatic SC', sans-serif;
     font-size: 1.5rem;
@@ -198,13 +203,27 @@ footer a:hover {
 
 /* ---------------- Media Queries ----------------- */
 @media (max-width: 992px) {
-    
+    .home-caption {
+        top: 50%;
+}
+
+    .home-caption h1 {
+    font-size: 1.8rem;
+}
+
+    .home-caption h3 {
+    font-family: 1.2rem;
+}
+
+    .btn-lg {
+    font-size: 1rem;
+}
 }
 
 @media (max-width: 767px) {
     h2.display-4 {
     font-size: 2rem;
-}
+    }
     
     .lead {
         font-size: 1rem;
@@ -213,10 +232,26 @@ footer a:hover {
     h3 {
         font-size: 1.2rem;
     }
+
+    footer img {
+        height: 7rem;
+    }
 }
-@media (min-width: 768px & max-width 992px) {
+@media (max-width: 1024px) {
     .home-caption {
-        top: 25%;
+        top: 50%;
+}
+
+    .home-caption h1 {
+    font-size: 2rem;
+}
+
+    .home-caption h3 {
+    font-family: 1.4rem;
+}
+
+    .btn-lg {
+    font-size: 1.1rem;
 }
 }
 
@@ -234,7 +269,7 @@ footer a:hover {
 }
 
 .copy {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 }
