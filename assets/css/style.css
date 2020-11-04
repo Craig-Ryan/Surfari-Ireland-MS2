@@ -42,66 +42,9 @@ h2.display-4 {
 }
 
 
-/* ---------------- Carousel Images ----------------- */
-
-#carousel {
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
-}
+/* ---------------- Main Images ----------------- */
 
 
-.carousel-fade,
-.carousel-item {
-    transition-duration: .65s; 
-    transition-property: opacity;
-    opacity: 0;
-}
-
-.carousel-fade,
-.carousel-item.active,
-.carousel-item {
-    opacity: 1;
-}
-
-.carousel-fade .carousel-item.active,{
-
-	transform: translateX(0);
-	transform: translate3d(0, 0, 0);
-}
-
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.bg-custom {
-    background-color: rgba(0, 0, 0, .4);
-    border-radius: 1rem;
-}
-
-.home-caption {
-    position: absolute;
-    top: 50%;
-    transform: translateX(-50%);
-    left: 50%;
-    padding: 1rem;
-    border-radius: 1.5%;
-    z-index: 1;
-}
-
-.home-caption h1 {
-    font-size: 3rem;
-    text-shadow: .1rem .1rem .5rem #000;
-    color: #fff;
-    
-}
-
-.home-caption h3 {
-    font-family: 1.7rem;
-    text-shadow: .1rem .1rem .5rem #000;
-    color: #fff;
-    padding-bottom: 1rem;
-}
 
 .btn-lg {
     font-size: 1.4rem;
@@ -176,7 +119,7 @@ ul.social {
 }
 
 ul.social li {
-    margin: 0 auto;
+    margin: 1rem auto;
     font-size: 2rem;
 }
 
