@@ -25,6 +25,7 @@ h2.display-4 {
     font-size: 1.3rem;
     letter-spacing: .15rem;
     background-color: #343A40;
+    /* padding: 20px 50px; */
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -147,17 +148,7 @@ footer a:hover {
 /* ---------------- Media Queries ----------------- */
 
 @media (max-width: 1024px) {
-    .home-caption {
-        top: 50%;
-}
 
-    .home-caption h1 {
-    font-size: 2rem;
-}
-
-    .home-caption h3 {
-    font-family: 1.4rem;
-}
 
     .btn-lg {
     font-size: 1.1rem;
@@ -165,17 +156,7 @@ footer a:hover {
 }
 
 @media (max-width: 992px) {
-    .home-caption {
-        top: 50%;
-}
-
-    .home-caption h1 {
-    font-size: 1.8rem;
-}
-
-    .home-caption h3 {
-    font-family: 1.2rem;
-}
+  
 
     .btn-lg {
     font-size: 1rem;
@@ -202,7 +183,7 @@ footer a:hover {
 
 @media (max-width: 425px) {
     .navbar-brand {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
 }
 
     .navbar-dark .navbar-nav .nav-link {
