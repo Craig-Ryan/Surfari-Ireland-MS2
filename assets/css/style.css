@@ -1,8 +1,12 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    max-width: 100vw;
     font-family: 'Martel', sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-size: contain;
 }
 
 .border-custom {
@@ -13,8 +17,85 @@ html, body {
 h2.display-4 {
     font-size: 2.5rem;
 }
+
+/* ---------------- Home Section ---------------- */
+
+#home {
+    padding: 100px;
+}
+
+.welcome {
+    position: relative;
+    background: url(../images/surf-background.jpg); /*Photo by Yaroslav Shuraev from Pexels https://www.pexels.com/photo/view-of-three-people-surfing-1553959/*/
+    background-size: cover;
+    background-position: right;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome .welcome-text {
+    text-align: center;
+}
+
+.welcome h1 {
+    font-size: 3rem;
+}
+
 /* ---------------- Navbar ----------------- */
-.navbar-brand {
+
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 35px 80px;
+    display: flex;
+    align-items: center;
+    transition: .6s;
+    z-index: 1;
+}
+
+header.sticky {
+
+}
+
+header .brand {
+    color: #fff;
+    font-family: "Amatic SC" , sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+header.sticky .brand {
+
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 20px;
+    letter-spacing: 3px;
+}
+
+
+/* .navbar-brand {
     font-size: 3rem;
     font-weight: bold;
     font-family: 'Amatic SC', sans-serif;
@@ -40,7 +121,7 @@ h2.display-4 {
 .navbar-toggler {
     border: none;
     outline: none;
-}
+} */
 
 
 /* ---------------- Main Images ----------------- */
@@ -87,7 +168,7 @@ h2.display-4 {
 }
 
 .fixed {
-    background-image: url('../images/fixed.jpg');
+    background-image: url('../images/fixed.jpg'); /* Photo by Mariamza from Pixabay https://pixabay.com/photos/surf-beach-sunset-sea-ocean-4087278/*/
     position: fixed;
 }
 
