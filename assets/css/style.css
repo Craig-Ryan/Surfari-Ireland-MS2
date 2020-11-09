@@ -1,12 +1,9 @@
-html, body {
+* {
     margin: 0;
     padding: 0;
-    max-width: 100vw;
     font-family: 'Martel', sans-serif;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-    background-size: contain;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 .border-custom {
@@ -20,9 +17,6 @@ h2.display-4 {
 
 /* ---------------- Home Section ---------------- */
 
-#home {
-    padding: 100px;
-}
 
 .welcome {
     position: relative;
@@ -55,24 +49,28 @@ header {
     align-items: center;
     transition: .6s;
     z-index: 1;
+    justify-content: space-between;
 }
 
 header.sticky {
-
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 25px 90px;
 }
 
 header .brand {
     color: #fff;
     font-family: "Amatic SC" , sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: 700;
 }
 
-header.sticky .brand {
-
+header.sticky .brand,
+header.sticky ul li a {
+    color: #000;
 }
 
 header ul {
@@ -86,12 +84,20 @@ header ul li {
 }
 
 header ul li a {
-    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-shadow: .12rem .12rem rgba(0, 0, 0), 0.4;
     position: relative;
     display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    padding: 20px;
     text-decoration: none;
-    margin: 0 20px;
-    letter-spacing: 3px;
+}
+
+header ul li a:hover {
+    color: #234099;
+    text-decoration: none;
 }
 
 
@@ -155,7 +161,7 @@ header ul li a {
 
 /* ---------------- Contact Form ----------------- */
 
-.jumbotron {
+/* .jumbotron {
     background-color: rgba(0, 0, 0, .4);
     border-radius: 1rem;
     color: #fff;
@@ -174,7 +180,7 @@ header ul li a {
 
 .fixed-background {
     padding: 5rem 0;
-}
+} */
 /* ---------------- Footer ----------------- */
 
 footer {
@@ -281,7 +287,7 @@ footer a:hover {
 
 }
 
-.fixed-background {
+/* .fixed-background {
   position: relative;
   width: 100%;
   z-index: 1000!important;
@@ -307,4 +313,4 @@ footer a:hover {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   will-change: transform;
-}
+} */
