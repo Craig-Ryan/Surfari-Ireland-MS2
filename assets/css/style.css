@@ -1,103 +1,112 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Martel', sans-serif;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Martel', sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 .border-custom {
-    background-color: #343A40;
-    height: .2rem;
+  background-color: #343A40;
+  height: .2rem;
 }
 
 h2.display-4 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
+
 
 /* ---------------- Home Section ---------------- */
 
-
 .welcome {
-    position: relative;
-    background: url(../images/surf-background.jpg); /*Photo by Yaroslav Shuraev from Pexels https://www.pexels.com/photo/view-of-three-people-surfing-1553959/*/
-    background-size: cover;
-    background-position: right;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  background: url(../images/surf-background.jpg);
+  /*Photo by Yaroslav Shuraev from Pexels https://www.pexels.com/photo/view-of-three-people-surfing-1553959/*/
+  background-size: cover;
+  background-position: right;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .welcome .welcome-text {
-    text-align: center;
+  text-align: center;
 }
 
 .welcome h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
+
 
 /* ---------------- Navbar ----------------- */
 
 header {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    padding: 35px 80px;
-    display: flex;
-    align-items: center;
-    transition: .6s;
-    z-index: 1;
-    justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 30px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
 }
 
 header.sticky {
-    background: #fff;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    padding: 25px 90px;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 25px 90px;
 }
 
 header .brand {
-    color: #fff;
-    font-family: "Amatic SC" , sans-serif;
-    font-size: 3rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: 700;
+  color: #fff;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: 700;
 }
 
 header.sticky .brand,
 header.sticky ul li a {
-    color: #000;
+  color: #000;
 }
 
 header ul {
-    position: relative;
-    display: flex;
+  position: relative;
+  display: flex;
 }
 
 header ul li {
-    position: relative;
-    list-style: none;
+  position: relative;
+  list-style: none;
 }
 
 header ul li a {
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-    text-shadow: .12rem .12rem rgba(0, 0, 0), 0.4;
-    position: relative;
-    display: inline-block;
-    margin: 0 15px;
-    color: #fff;
-    padding: 20px;
-    text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-shadow: .12rem .12rem rgba(0, 0, 0), 0.4;
+  position: relative;
+  display: inline-block;
+  padding-top: 20px;
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
 }
 
-header ul li a:hover {
-    color: #234099;
-    text-decoration: none;
+/* header ul li a:hover {
+  color: #234099;
+  text-decoration: none;
+} */
+
+header ul a:hover,
+section#home:hover ~ header ul a[href="#home"],
+section#about:hover ~ header ul a[href="#about"],
+section#forecast:hover ~ header ul a[href="#forecast"],
+section#contact:hover ~ header ul a[href="#contact"]{
+  color: red;
 }
 
 
@@ -113,50 +122,43 @@ header ul li a:hover {
     letter-spacing: .15rem;
     background-color: #343A40;
     /* padding: 20px 50px; */
-}
 
+
+}
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+  color: #fff;
 }
-
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #b2deec;
+  color: #b2deec;
 }
-
 .navbar-toggler {
-    border: none;
-    outline: none;
-} */
-
-
+  border: none;
+  outline: none;
+}
+*/
 /* ---------------- Main Images ----------------- */
-
-
-
 .btn-lg {
-    font-size: 1.4rem;
-    padding: .5rem 1rem;
-    border-width: medium;
-    border-radius: 1.5%;
+  font-size: 1.4rem;
+  padding: .5rem 1rem;
+  border-width: medium;
+  border-radius: 1.5%;
 }
 
 /* ---------------- About Section ----------------- */
-
 #about {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
-
 .surfer img {
-   margin: 0 auto;
+  margin: 0 auto;
+}
+.btn-lg-dark {
+  font-size: 1.4rem;
+  padding: .5rem 1rem;
+  border-width: medium;
+  border-radius: 1.5%;
 }
 
-.btn-lg-dark {
-    font-size: 1.4rem;
-    padding: .5rem 1rem;
-    border-width: medium;
-    border-radius: 1.5%;
-}
 /* ---------------- Forecast Section ----------------- */
 
 /* ---------------- Contact Form ----------------- */
@@ -175,116 +177,98 @@ header ul li a:hover {
 
 .fixed {
     background-image: url('../images/fixed.jpg'); /* Photo by Mariamza from Pixabay https://pixabay.com/photos/surf-beach-sunset-sea-ocean-4087278/*/
-    position: fixed;
-}
+position: fixed;
 
+}
 .fixed-background {
-    padding: 5rem 0;
-} */
+  padding: 5rem 0;
+}
+*/
 /* ---------------- Footer ----------------- */
-
 footer {
-    background-color: #343A40;
-    padding: 1rem 2rem 3rem;
+  background-color: #343A40;
+  padding: 1rem 2rem 3rem;
 }
-
 footer img {
-    height: 10rem;
-    margin: 1rem auto;
+  height: 10rem;
+  margin: 1rem auto;
 }
-
 .logo {
-    border-radius: 1rem;
+  border-radius: 1rem;
 }
-
 ul.social {
-    list-style-type: none;
-    display: flex;
-    margin: 0 auto;
-    padding: 0;
-    max-width: 20rem;
-    border-radius: 1rem;
+  list-style-type: none;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 20rem;
+  border-radius: 1rem;
 }
-
 ul.social li {
-    margin: 1rem auto;
-    font-size: 2rem;
+  margin: 1rem auto;
+  font-size: 2rem;
 }
-
 ul.social li:hover {
-    color: #b2deec;
+  color: #b2deec;
 }
-
-footer a, footer p {
-    color: #fff;
-    margin: 0 auto;
+footer a,
+footer p {
+  color: #fff;
+  margin: 0 auto;
 }
-
 footer a:hover {
-    color: #b2deec;
+  color: #b2deec;
 }
-
-
 .copy {
-    border-top: .15rem solid #b2deec;
-    margin: 0 auto;
-    font-family: 'Amatic SC', sans-serif;
-    font-size: 1.5rem;
+  border-top: .15rem solid #b2deec;
+  margin: 0 auto;
+  font-family: 'Amatic SC',
+  sans-serif;
+  font-size: 1.5rem;
 }
 
 /* ---------------- Media Queries ----------------- */
-
 @media (max-width: 1024px) {
+  header, header.sticky {
+    padding: 20px 50px;
+  }
 
-
-    .btn-lg {
+  .btn-lg {
     font-size: 1.1rem;
+  }
 }
-}
-
 @media (max-width: 992px) {
-  
-
-    .btn-lg {
+  .btn-lg {
     font-size: 1rem;
+  }
 }
-}
-
 @media (max-width: 767px) {
-    h2.display-4 {
+  h2.display-4 {
     font-size: 2rem;
-    }
-    
-    .lead {
-        font-size: 1rem;
-    }
-
-    h3 {
-        font-size: 1.2rem;
-    }
-
-    footer img {
-        height: 7rem;
-    }
-}
-
-@media (max-width: 425px) {
-    .navbar-brand {
-    font-size: 2.2rem;
-}
-
-    .navbar-dark .navbar-nav .nav-link {
-    font-size: 1.1rem;
-}
-
-.lead {
+  }
+  .lead {
     font-size: 1rem;
-}
-
-.copy {
+  }
+  h3 {
     font-size: 1.2rem;
+  }
+  footer img {
+    height: 7rem;
+  }
 }
-
+@media (max-width: 425px) {
+  .navbar-brand {
+    font-size: 2.2rem;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 1.1rem;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+  .copy {
+    font-size: 1.2rem;
+  }
 }
 
 /* .fixed-background {
