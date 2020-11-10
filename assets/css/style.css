@@ -6,15 +6,9 @@
   box-sizing: border-box;
 }
 
-.border-custom {
-  background-color: #343A40;
-  height: .2rem;
+section {
+  padding: 80px 0;
 }
-
-h2.display-4 {
-  font-size: 2.5rem;
-}
-
 
 /* ---------------- Home Section ---------------- */
 
@@ -42,11 +36,12 @@ h2.display-4 {
 /* ---------------- Navbar ----------------- */
 
 header {
+  background: rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
   left: 0;
   top: 0;
-  padding: 30px 80px;
+  padding: 25px 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,7 +51,7 @@ header {
 header.sticky {
   background: #fff;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-  padding: 25px 90px;
+  padding: 0 90px;
 }
 
 header .brand {
@@ -69,8 +64,7 @@ header .brand {
   font-weight: 700;
 }
 
-header.sticky .brand,
-header.sticky ul li a {
+header.sticky .brand {
   color: #000;
 }
 
@@ -85,9 +79,10 @@ header ul li {
 }
 
 header ul li a {
+  
   font-size: 1.5rem;
   letter-spacing: 2px;
-  text-shadow: .12rem .12rem rgba(0, 0, 0), 0.4;
+  text-shadow: 1px 1px .5px rgba(0, 0, 0, 0.4);
   position: relative;
   display: inline-block;
   padding-top: 20px;
@@ -96,17 +91,13 @@ header ul li a {
   text-decoration: none;
 }
 
-/* header ul li a:hover {
-  color: #234099;
-  text-decoration: none;
-} */
+header.sticky ul li a {
+  color: #000;
+}
 
-header ul a:hover,
-section#home:hover ~ header ul a[href="#home"],
-section#about:hover ~ header ul a[href="#about"],
-section#forecast:hover ~ header ul a[href="#forecast"],
-section#contact:hover ~ header ul a[href="#contact"]{
-  color: red;
+header ul li a:hover {
+  color: #5c6e91;
+  text-decoration: none;
 }
 
 
@@ -121,10 +112,10 @@ section#contact:hover ~ header ul a[href="#contact"]{
     font-size: 1.3rem;
     letter-spacing: .15rem;
     background-color: #343A40;
-    /* padding: 20px 50px; */
+    /* padding: 20px 50px; }
 
 
-}
+
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
@@ -135,8 +126,8 @@ section#contact:hover ~ header ul a[href="#contact"]{
 .navbar-toggler {
   border: none;
   outline: none;
-}
-*/
+} */
+
 /* ---------------- Main Images ----------------- */
 .btn-lg {
   font-size: 1.4rem;
@@ -163,68 +154,31 @@ section#contact:hover ~ header ul a[href="#contact"]{
 
 /* ---------------- Contact Form ----------------- */
 
-/* .jumbotron {
-    background-color: rgba(0, 0, 0, .4);
-    border-radius: 1rem;
-    color: #fff;
-    text-shadow: .1rem .1rem .5rem #000;
-    margin: 0 auto;
-}
 
-.line {
-    border-top: .15rem solid #b2deec;
-}
-
-.fixed {
-    background-image: url('../images/fixed.jpg'); /* Photo by Mariamza from Pixabay https://pixabay.com/photos/surf-beach-sunset-sea-ocean-4087278/*/
-position: fixed;
-
-}
-.fixed-background {
-  padding: 5rem 0;
-}
-*/
 /* ---------------- Footer ----------------- */
+
 footer {
-  background-color: #343A40;
-  padding: 1rem 2rem 3rem;
+  position: relative;
+  display: flex;
+  background-color: #373a40;
+  color: #fff;
 }
 footer img {
   height: 10rem;
   margin: 1rem auto;
 }
-.logo {
-  border-radius: 1rem;
-}
-ul.social {
+
+footer ul li a {
+  color: #fff;
   list-style-type: none;
-  display: flex;
-  margin: 0 auto;
-  padding: 0;
-  max-width: 20rem;
-  border-radius: 1rem;
-}
-ul.social li {
-  margin: 1rem auto;
+  display: inline-block;
   font-size: 2rem;
 }
-ul.social li:hover {
-  color: #b2deec;
-}
-footer a,
+
 footer p {
-  color: #fff;
-  margin: 0 auto;
-}
-footer a:hover {
-  color: #b2deec;
-}
-.copy {
-  border-top: .15rem solid #b2deec;
-  margin: 0 auto;
-  font-family: 'Amatic SC',
-  sans-serif;
   font-size: 1.5rem;
+  font-family: 'Amatic SC', sans-serif;
+  padding-bottom: 0;
 }
 
 /* ---------------- Media Queries ----------------- */
