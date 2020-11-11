@@ -1,14 +1,28 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Martel', sans-serif;
+  font-family: "Martel", sans-serif;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
 section {
-  padding: 80px 0;
+  min-height: 100vh;
+  padding: 100px 10px;
 }
+
+.heading {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* .heading-container {
+  background-color: #e8e8e8;
+  padding: 10px;
+  box-shadow: 1px 1px .5px rgba(0,0,0,0.1);
+} */
 
 /* ---------------- Home Section ---------------- */
 
@@ -32,89 +46,20 @@ section {
   font-size: 3rem;
 }
 
-
 /* ---------------- Navbar ----------------- */
 
-header {
-  background: rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 100%;
-  left: 0;
-  top: 0;
-  padding: 25px 80px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 1;
-}
-
-header.sticky {
-  background: #fff;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-  padding: 0 90px;
-}
-
-header .brand {
-  color: #fff;
-  font-family: "Amatic SC", sans-serif;
+.navbar-brand {
   font-size: 3rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 3px;
-  font-weight: 700;
-}
-
-header.sticky .brand {
-  color: #000;
-}
-
-header ul {
-  position: relative;
-  display: flex;
-}
-
-header ul li {
-  position: relative;
-  list-style: none;
-}
-
-header ul li a {
-  
-  font-size: 1.5rem;
-  letter-spacing: 2px;
-  text-shadow: 1px 1px .5px rgba(0, 0, 0, 0.4);
-  position: relative;
-  display: inline-block;
-  padding-top: 20px;
-  margin-right: 20px;
-  color: #fff;
-  text-decoration: none;
-}
-
-header.sticky ul li a {
-  color: #000;
-}
-
-header ul li a:hover {
-  color: #5c6e91;
-  text-decoration: none;
-}
-
-
-/* .navbar-brand {
-    font-size: 3rem;
-    font-weight: bold;
-    font-family: 'Amatic SC', sans-serif;
-    letter-spacing: .2rem;
+  font-weight: bold;
+  font-family: "Amatic SC", sans-serif;
+  letter-spacing: 0.2rem;
 }
 
 .navbar {
-    font-size: 1.3rem;
-    letter-spacing: .15rem;
-    background-color: #343A40;
-    /* padding: 20px 50px; }
-
-
+  font-size: 1.3rem;
+  letter-spacing: 0.15rem;
+  background-color: #343a40;
+}
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
@@ -126,12 +71,12 @@ header ul li a:hover {
 .navbar-toggler {
   border: none;
   outline: none;
-} */
+}
 
 /* ---------------- Main Images ----------------- */
 .btn-lg {
   font-size: 1.4rem;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-width: medium;
   border-radius: 1.5%;
 }
@@ -145,15 +90,16 @@ header ul li a:hover {
 }
 .btn-lg-dark {
   font-size: 1.4rem;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-width: medium;
   border-radius: 1.5%;
 }
 
 /* ---------------- Forecast Section ----------------- */
-
+#forecast {
+  background: #e8e8e8;
+}
 /* ---------------- Contact Form ----------------- */
-
 
 /* ---------------- Footer ----------------- */
 
@@ -177,13 +123,14 @@ footer ul li a {
 
 footer p {
   font-size: 1.5rem;
-  font-family: 'Amatic SC', sans-serif;
+  font-family: "Amatic SC", sans-serif;
   padding-bottom: 0;
 }
 
 /* ---------------- Media Queries ----------------- */
 @media (max-width: 1024px) {
-  header, header.sticky {
+  header,
+  header.sticky {
     padding: 20px 50px;
   }
 
@@ -224,31 +171,3 @@ footer p {
     font-size: 1.2rem;
   }
 }
-
-/* .fixed-background {
-  position: relative;
-  width: 100%;
-  z-index: 1000!important;
-}
-.fixed-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -999 !important;
-}
-.fixed {
-  z-index: -999!important;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  will-change: transform;
-} */

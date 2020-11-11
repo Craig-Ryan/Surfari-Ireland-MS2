@@ -1,176 +1,169 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="Surfari Ireland" content="A surf report generating app for surf spots in Ireland" />
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="Surfari Ireland" content="A surf report generating app for surf spots in Ireland">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Martel&display=swap" rel="stylesheet" />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Martel&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-	<!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Surfari Ireland</title>
+  </head>
 
-	<title>Surfari Ireland</title>
-</head>
-
-<body>
-
-	<!-- Navbar -->
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    <!-- Navbar -->
     <!-- Remove and add more responsive nav -->
-	<!-- <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
-		<div class="container">
-			<a href="index.html" class="navbar-brand">Surfari Ireland</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="#navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#forecast">Surf Forecast</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-		</div>
-	</nav> -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Surfari Ireland</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="#navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#forecast">Surf Forecast</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- End Navbar -->
 
-    <header>
-        <a href="#" class="brand">Surfari Ireland</a>
-        <div class="toggle" onclick="toggleMenu();"></div>
-            <ul class="navigation">
-                <li><a href="#home" onclick="toggleMenu();">Home</a></li>
-                <li><a href="#about" onclick="toggleMenu();">About</a></li>
-                <li><a href="#forecast" onclick="toggleMenu();">Forecast</a></li>
-                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
-            </ul>
-    </header>
-
     <section id="home" class="welcome">
-        <div class="welcome-text">
-            <h1>Surfari Ireland</h1>
-            <h2>Current and upcoming surf reports for Ireland</h2>
-            <button href="#forecast" class="btn btn-lg btn-outline-dark btn-light">Go to Surf Reports</button>
-        </div>
-	
-    </section>
-	<!-- About Section -->
-	<section id="about">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<h2 class="heading">About</h2>
-                    <div class="border-top border-custom w-25 mx-auto mb-4"></div>
-				</div>
-                <hr>
-				<div class=" col-md-12 col-lg-6">
-                    <h3 class="text-dark font-weight-bold mb-3">Welcome to Surfari Ireland!</h3>
-					<p class="lead mb-4">Surfari Ireland provides you with current and upcoming surf-forecasts at various Irish surf spots. Using the MagicSeaweed and Google Maps APIs to bring you accurate and detailed surf forecasts to make sure you're ready when the next set rolls in.
-                    </p>
-                    <a href="#forecast" type="button" class="btn btn-lg-dark btn-outline-dark mb-4">Get surf reports now!</a>
-				</div>
-                <div class="col-md-12 col-lg-6 surfer">
-                    <img src="assets/images/img5.jpg" alt="Surfer at sunset" class="w-100">
-                </div>
-			</div>
-		</div>
-	</section>
-    <hr>
-	<!-- Forecast Section -->
-	<section id="forecast">
-		<div class="container">
-			<div class="row text-center">
-				<div class="col-12">
-					<h2 class="heading">Surf Reports</h2>
-                    <div class="border-top border-custom w-25 mx-auto mb-4"></div>
-				</div>
-				
-				<div class="col-12">
-					<p class="lead">Choose from the options below to generate the surf report for your chosen surf spot.</p>
-				</div>
-			</div>
-			
-		</div>
-	</section>
-        <div class="border-top border-custom w-100"></div>
-	<!-- Contact Form -->
-    <!-- Code copied from https://getbootstrap.com/docs/4.0/components/forms/ -->
-    <section id="contact">
-    <div class="container">
-			<div class="container jumbotron">
-                <div class="row text-center">
-                    <div class="col-12">
-                        <h2 class="heading">Get in touch</h2>
-                        <hr class="line w-25">
-                        <p class="lead">Have anything you'd like to ask?<br>Don't hesitate to contact us!</p>
-                    </div>
-                </div>
-				<form class="w-75 mx-auto">
-					<div class="form-group">
-						<label for="firstname">First Name:</label>
-						<input type="text" name="firstname" class="form-control" id="firstname" placeholder="First Name" required>
-				    </div>
-                    <div class="form-group">
-						<label for="lastname">Last Name:</label>
-						<input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name" required>
-				    </div>
-					<div class="form-group">
-						<label for="email">Email:</label>
-						<input type="email" name="email" class="form-control" id="email" placeholder="Email Address" required>
-                    </div>
-					<div class="form-group">
-						<label for="comments">Your Comments:</label>
-						<textarea class="form-control" name="comments" id="comments" rows="5" required></textarea>
-					</div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Click here to sign up for our news letter.</label>
-                        <p><small><em>We will never share your personal information with anybody.</em></small></p>
-                    </div>
-					    <button type="submit" class="btn btn-md btn-outline-light mx-auto">Submit</button>
-				</form>
-			</div>
+      <div class="welcome-text">
+        <h1>Surfari Ireland</h1>
+        <h3>Current and upcoming surf reports for Ireland</h3>
+        <button href="#forecast" class="btn btn-lg btn-outline-dark btn-light">Go to Surf Reports</button>
       </div>
     </section>
-    
-	<!-- Footer -->
-	<footer class="pb-3">
-		<div class="container-fluid text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-5 text-center">
-                    <ul class="social pt-3">
-                        <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href=""><i class="fab fa-instagram-square"></i></a></li>
-                        <li><a href=""><i class="fab fa-youtube-square"></i></a></li>
-                    </ul>
-                </div>
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="heading heading-container">About</h2>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <h3 class="text-dark font-weight-bold mb-3">Welcome to Surfari Ireland!</h3>
+            <p class="lead mb-4">
+              Surfari Ireland provides you with current and upcoming surf-forecasts at various Irish surf spots. Using the MagicSeaweed and Google Maps APIs to bring you accurate and detailed surf forecasts to make sure you're ready when
+              the next set rolls in.
+            </p>
+            <a href="#forecast" type="button" class="btn btn-lg-dark btn-outline-dark mb-4">Get surf reports now!</a>
+          </div>
+          <div class="col-md-12 col-lg-6 surfer">
+            <img src="assets/images/img5.jpg" alt="Surfer at sunset" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Forecast Section -->
+    <section id="forecast">
+      <div class="container">
+        <div class="row container text-center">
+          <div class="col-12">
+            <h2 class="heading heading-container">Surf Reports</h2>
+          </div>
+          <div class="col-12">
+            <p class="lead">Choose from the options below to generate the surf report for your chosen surf spot.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <!-- Code copied from https://getbootstrap.com/docs/4.0/components/forms/ -->
+    <section id="contact">
+      <div class="container">
+        <div class="container jumbotron">
+          <div class="row text-center">
+            <div class="col-12">
+              <h2 class="heading heading-container">Get in touch</h2>
+              <p class="lead">
+                Have anything you'd like to ask?<br />
+                Don't hesitate to contact us!
+              </p>
             </div>
-            <div class="container-fluid copy py-3 text-center">
-                <p class="mb-0">&copy; 2020 Copyright Surfari Ireland</p>
+          </div>
+          <form class="w-75 mx-auto">
+            <div class="form-group">
+              <label for="firstname">First Name:</label>
+              <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First Name" required />
             </div>
-		</div>
-	</footer>
-        
-	<!-- JavaScript Links -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+            <div class="form-group">
+              <label for="lastname">Last Name:</label>
+              <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" name="email" class="form-control" id="email" placeholder="Email Address" required />
+            </div>
+            <div class="form-group">
+              <label for="comments">Your Comments:</label>
+              <textarea class="form-control" name="comments" id="comments" rows="5" required></textarea>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+              <label class="form-check-label" for="exampleCheck1">Click here to sign up for our news letter.</label>
+              <p>
+                <small><em>We will never share your personal information with anybody.</em></small>
+              </p>
+            </div>
+            <button type="submit" class="btn btn-md btn-outline-light mx-auto">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pb-3">
+      <div class="container-fluid text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-5 text-center">
+            <ul class="social pt-3">
+              <li>
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-twitter-square"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram-square"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-youtube-square"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container-fluid copy py-3 text-center">
+          <p class="mb-0">&copy; 2020 Copyright Surfari Ireland</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript Links -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/0471f2898e.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>
