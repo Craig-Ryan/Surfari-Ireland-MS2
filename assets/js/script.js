@@ -9,3 +9,4 @@ function toggleNavigation() {
     navToggle.classList.toggle('active')
     navigation.classList.toggle('active')
 }
+
