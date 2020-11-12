@@ -14,17 +14,18 @@ section {
 }
 
 .heading {
+  color: #fff;
   font-size: 2rem;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 500;
   letter-spacing: 2px;
+  padding: 12px 0 9px 0;
 }
 
-/* .heading-container {
-  background-color: #e8e8e8;
-  padding: 10px;
+.heading-container {
+  background-color: #343a40;
   box-shadow: 1px 1px .5px rgba(0,0,0,0.1);
-} */
+}
 
 /* ---------------- Home Section ---------------- */
 
@@ -46,18 +47,29 @@ section {
 
 .welcome h1 {
   font-size: 3rem;
-  color: #fff;
-  text-shadow: 2px 2px 2px #000;
+  font-weight: 600;
+  color: #000;
+  text-shadow: 2px 2px 2px #fff;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .welcome h3 {
   font-size: 2rem;
-  color: #fff;
-  text-shadow: 1px 1px 2px #000;
-  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #000;
+  text-shadow: 1px 1px 2px #fff;
+  margin-bottom: 2rem;
+}
+
+.btn-custom {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 10px;
+  border-width: medium;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 2px #000;
 }
 
 /* ---------------- Navbar ----------------- */
@@ -88,12 +100,7 @@ section {
 }
 
 /* ---------------- Main Images ----------------- */
-.btn-lg {
-  font-size: 1.4rem;
-  padding: 0.5rem 1rem;
-  border-width: medium;
-  text-transform: uppercase;
-}
+
 
 /* ---------------- About Section ----------------- */
 #about {
@@ -102,18 +109,20 @@ section {
 .surfer img {
   margin: 0 auto;
 }
-.btn-lg-dark {
-  font-size: 1.4rem;
-  padding: 0.5rem 1rem;
-  border-width: medium;
-  border-radius: 1.5%;
-}
 
 /* ---------------- Forecast Section ----------------- */
 #forecast {
   background: #e8e8e8;
 }
 /* ---------------- Contact Form ----------------- */
+
+.btn-md {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 10px;
+  box-shadow: 1px 1px 2px #000;
+  text-transform: uppercase;
+}
 
 /* ---------------- Footer ----------------- */
 
@@ -151,15 +160,27 @@ footer p {
   font-size: 1.2rem;
 }
 
-  .btn-lg {
+  .btn-custom {
     font-size: 1.1rem;
   }
-}
-@media (max-width: 992px) {
-  .btn-lg {
+
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  #about h3 {
+    font-size: 1.3rem;
+  }
+
+  .lead {
     font-size: 1rem;
   }
+
+  .btn-md {
+  font-size: 1.1rem;
 }
+}
+
 @media (max-width: 767px) {
   h2.display-4 {
     font-size: 2rem;
