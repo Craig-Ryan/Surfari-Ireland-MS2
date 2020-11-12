@@ -141,29 +141,43 @@ section {
 
 /* ---------------- Footer ----------------- */
 
-footer {
-  position: relative;
-  display: flex;
+/* footer {
   background-color: #373a40;
   color: #fff;
-}
-footer img {
-  height: 10rem;
-  margin: 1rem auto;
+  display: flex;
 }
 
-footer ul li a {
-  color: #fff;
-  list-style-type: none;
-  display: inline-block;
-  font-size: 2rem;
+.footer-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
-footer p {
+footer.copy {
+  display: flex;
   font-size: 1.5rem;
   font-family: "Amatic SC", sans-serif;
-  padding-bottom: 0;
+  align-items: center;
+  padding: 10px;
 }
+
+ul.social {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+ul.social li a {
+  color: #fff;
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 1rem;
+  border-radius: 50%;
+  padding: 10px;
+} */
+
+
 
 /* ---------------- Media Queries ----------------- */
 @media (max-width: 992px) {
