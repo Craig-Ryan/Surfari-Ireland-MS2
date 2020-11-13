@@ -1,3 +1,5 @@
+/* ------------------------------------------------- General Styling ------------------------------------------------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +9,6 @@
 }
 
 section {
-  min-height: 100vh;
   padding: 100px 10px;
   max-width: 100vw;
   overflow-x: hidden;
@@ -27,7 +28,7 @@ section {
   box-shadow: 1px 1px .5px rgba(0,0,0,0.1);
 }
 
-/* ---------------- Home Section ---------------- */
+/* ------------------------------------------------- Home Section ------------------------------------------------- */
 
 .welcome {
   position: relative;
@@ -72,7 +73,7 @@ section {
   box-shadow: 2px 2px 3px #000;
 }
 
-/* ---------------- Navbar ----------------- */
+/* ------------------------------------------------- Navbar ------------------------------------------------- */
 
 .navbar-brand {
   font-size: 3rem;
@@ -99,10 +100,8 @@ section {
   outline: none;
 }
 
-/* ---------------- Main Images ----------------- */
+/* ------------------------------------------------- About Section ------------------------------------------------- */
 
-
-/* ---------------- About Section ----------------- */
 #about {
   overflow-x: hidden;
 }
@@ -110,11 +109,13 @@ section {
   margin: 0 auto;
 }
 
-/* ---------------- Forecast Section ----------------- */
+/* ------------------------------------------------- Forecast Section ------------------------------------------------- */
+
 #forecast {
   background: #e8e8e8;
 }
-/* ---------------- Contact Form ----------------- */
+/* ------------------------------------------------- Contact Form ------------------------------------------------- */
+
 .form-background {
   position: relative;
   background: url(../images/fixed.jpg);
@@ -139,9 +140,9 @@ section {
   text-transform: uppercase;
 }
 
-/* ---------------- Footer ----------------- */
+/* ------------------------------------------------- Footer ------------------------------------------------- */
 
-/* footer {
+footer {
   background-color: #373a40;
   color: #fff;
   display: flex;
@@ -150,44 +151,57 @@ section {
 .footer-container {
   display: flex;
   align-items: center;
-  width: 100%;
 }
 
-footer.copy {
+.copy {
   display: flex;
-  font-size: 1.5rem;
-  font-family: "Amatic SC", sans-serif;
   align-items: center;
-  padding: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.copy a {
+  color: #fff;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
 ul.social {
   list-style-type: none;
   display: flex;
-  width: 100%;
   justify-content: flex-end;
+  width: 100%;
+  margin: 0 auto;
 }
 
-ul.social li a {
-  color: #fff;
-  padding: 10px;
-  margin-right: 20px;
-  font-size: 1rem;
-  border-radius: 50%;
-  padding: 10px;
-} */
-
-
-
-/* ---------------- Media Queries ----------------- */
-@media (max-width: 992px) {
-  .welcome h1 {
+.social i {
   font-size: 2rem;
+  margin: 10px;
+  padding: 15px;
+  color: #fff;
+  
 }
 
-.welcome h3 {
-  font-size: 1.2rem;
-}
+
+
+/* ------------------------------------------------ Media Queries ------------------------------------------------- */
+@media (max-width: 768px) {
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .welcome h1 {
+    font-size: 2rem;
+  }
+
+  .welcome h3 {
+    font-size: 1.2rem;
+  }
 
   .btn-custom {
     font-size: 1.1rem;
@@ -202,7 +216,7 @@ ul.social li a {
   }
 
   .lead {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .btn-md {
@@ -210,31 +224,44 @@ ul.social li a {
 }
 }
 
-@media (max-width: 767px) {
-  h2.display-4 {
-    font-size: 2rem;
-  }
-  .lead {
-    font-size: 1rem;
-  }
-  h3 {
-    font-size: 1.2rem;
-  }
-  footer img {
-    height: 7rem;
-  }
-}
+
 @media (max-width: 425px) {
   .navbar-brand {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   .navbar-dark .navbar-nav .nav-link {
-    font-size: 1.1rem;
-  }
-  .lead {
     font-size: 1rem;
   }
+
+  .welcome h1 {
+    font-size: 1.8rem;
+  }
+
+  .welcome h3 {
+    font-size: 1.1rem;
+  }
+
+  .btn-custom {
+    font-size: 1rem;
+  }
+
+  .heading {
+    font-size: 1.3rem;
+  }
+
+  #about h3 {
+    font-size: 1.1rem;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+  }
+
+  .btn-md {
+  font-size: 1rem;
+}
+  
   .copy {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
