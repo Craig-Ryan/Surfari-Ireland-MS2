@@ -159,12 +159,19 @@ footer {
   width: 100%;
   margin: 0 auto;
 }
+.copy a span {
+  font-size: 2rem;
+  font-family: "Amatic SC", sans-serif;
+}
 
 .copy a {
   color: #fff;
-  font-family: "Amatic SC", sans-serif;
   font-size: 1.5rem;
   text-decoration: none;
+}
+
+.copy a:hover {
+  color: #b2deec;
 }
 
 ul.social {
@@ -180,52 +187,30 @@ ul.social {
   margin: 10px;
   padding: 15px;
   color: #fff;
-  
+}
+
+.social i:hover {
+  color: #b2deec;
+  transform: scale(1.2);
 }
 
 
 
 /* ------------------------------------------------ Media Queries ------------------------------------------------- */
-@media (max-width: 768px) {
 
-  .navbar-brand {
-    font-size: 2rem;
-  }
-  .navbar-dark .navbar-nav .nav-link {
-    font-size: 1.2rem;
-  }
+@media only screen and (min-width: 375px) {
 
-  .welcome h1 {
-    font-size: 2rem;
-  }
+  .copy a span {
+  font-size: 1rem;
+}
 
-  .welcome h3 {
-    font-size: 1.2rem;
-  }
-
-  .btn-custom {
-    font-size: 1.1rem;
-  }
-
-  .heading {
-    font-size: 1.5rem;
-  }
-
-  #about h3 {
-    font-size: 1.3rem;
-  }
-
-  .lead {
-    font-size: 1.2rem;
-  }
-
-  .btn-md {
-  font-size: 1.1rem;
+  .social i {
+  font-size: 1rem;
+  padding: 0;
 }
 }
 
-
-@media (max-width: 425px) {
+@media only screen and (min-width: 425px) {
   .navbar-brand {
     font-size: 1.8rem;
   }
@@ -261,7 +246,71 @@ ul.social {
   font-size: 1rem;
 }
   
-  .copy {
-    font-size: 1rem;
-  }
+  .copy a span {
+  font-size: 1.2rem;
 }
+
+  .social i {
+  font-size: 1.2rem;
+}
+}
+
+@media only screen and (min-width: 768px) {
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .welcome h1 {
+    font-size: 2rem;
+  }
+
+  .welcome h3 {
+    font-size: 1.2rem;
+  }
+
+  .btn-custom {
+    font-size: 1.1rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  #about h3 {
+    font-size: 1.3rem;
+  }
+
+  .lead {
+    font-size: 1.2rem;
+  }
+
+  .btn-md {
+  font-size: 1.1rem;
+}
+
+.copy a span {
+  font-size: 1.8rem;
+}
+
+.social i {
+  font-size: 1.8rem;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+  .copy a span {
+  font-size: 2rem;
+}
+
+  .social i {
+  font-size: 2rem;
+}
+}
+
+
+
