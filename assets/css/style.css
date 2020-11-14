@@ -146,12 +146,12 @@ footer {
   background-color: #373a40;
   color: #fff;
   display: flex;
+  overflow-x: hidden;
 }
 
 .footer-container {
   display: flex;
   align-items: center;
-  padding: 15px 40px;
 }
 
 .copy {
@@ -185,7 +185,7 @@ ul.social {
 
 .social i {
   font-size: 2rem;
-  margin-right: 30px;
+  margin: 10px;
   padding: 15px;
   color: #fff;
 }
@@ -199,144 +199,60 @@ ul.social {
 
 /* ------------------------------------------------ Media Queries ------------------------------------------------- */
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 1440px){
 
-  .welcome h1 {
-    font-size: 1.5rem;
-  }
-
-  .welcome h3 {
-    font-size: 1rem;
-  }
-
-  .btn-custom {
-    font-size: .8rem;
-  }
-
-  /* .footer-container {
-    padding: 10px 15px;
-  } */
-  /* .copy a span {
-  font-size: 1rem;
 }
 
-  .social i {
-  font-size: 1rem;
-  padding: 0;
-  margin: 0 10px;
-} */
+@media only screen and (max-width: 1024px){
+
 }
 
-@media only screen and (min-width: 425px) {
-  .navbar-brand {
-    font-size: 1.8rem;
-  }
-  .navbar-dark .navbar-nav .nav-link {
-    font-size: 1rem;
-  }
+@media only screen and (max-width: 992px){
 
-  .welcome h1 {
-    font-size: 1.8rem;
-  }
-
-  .welcome h3 {
-    font-size: 1.1rem;
-  }
-
-  .btn-custom {
-    font-size: 1rem;
-  }
-
-  .heading {
-    font-size: 1.3rem;
-  }
-
-  #about h3 {
-    font-size: 1.1rem;
-  }
-
-  .lead {
-    font-size: 1.1rem;
-  }
-
-  .btn-md {
-  font-size: 1rem;
 }
 
-.footer-container {
-  padding: 15px 10px;
-} 
-  
-  .copy a span {
-  font-size: 1.2rem;
-} 
+@media only screen and (max-width: 768px){
 
-   .social i {
-  font-size: 1.2rem;
-}
+.navbar-brand {
+  font-size: 2rem;
 }
 
-@media only screen and (min-width: 768px) {
-
-  .navbar-brand {
-    font-size: 2rem;
-  }
-  .navbar-dark .navbar-nav .nav-link {
-    font-size: 1.2rem;
-  }
-
-  .welcome h1 {
-    font-size: 2rem;
-  }
-
-  .welcome h3 {
-    font-size: 1.2rem;
-  }
-
-  .btn-custom {
-    font-size: 1.1rem;
-  }
-
-  .heading {
-    font-size: 1.5rem;
-  }
-
-  #about h3 {
-    font-size: 1.3rem;
-  }
-
-  .lead {
-    font-size: 1.2rem;
-  }
-
-  .btn-md {
+.navbar {
   font-size: 1.1rem;
 }
 
-/* .footer-container {
-  padding: 15px 40px;
-} */
+.btn-custom {
+  font-size: 1rem;
+}
+
+.welcome h1 {
+  font-size: 2rem;
+}
+
+.welcome h3 {
+  font-size: 1.5rem;
+}
+}
+
+@media only screen and (max-width: 425px){
+
+.welcome h1 {
+  font-size: 1.8rem;
+}
+
+.welcome h3 {
+  font-size: 1.2rem;
+}
 
 .copy a span {
-  font-size: 1.8rem;
-}
+ font-size: 1rem;  
+} 
 
 .social i {
-  font-size: 1.8rem;
+ font-size: 1rem;
+ padding: 0;
 }
 
 }
-
-@media only screen and (min-width: 992px) {
-
-  .copy a span {
-  font-size: 2rem;
-}
-
-  .social i {
-  font-size: 2rem;
-}
-}
-
 
 
