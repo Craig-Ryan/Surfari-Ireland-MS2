@@ -151,6 +151,7 @@ footer {
 .footer-container {
   display: flex;
   align-items: center;
+  padding: 15px 40px;
 }
 
 .copy {
@@ -184,7 +185,7 @@ ul.social {
 
 .social i {
   font-size: 2rem;
-  margin: 10px;
+  margin-right: 30px;
   padding: 15px;
   color: #fff;
 }
@@ -200,14 +201,30 @@ ul.social {
 
 @media only screen and (min-width: 375px) {
 
-  .copy a span {
+  .welcome h1 {
+    font-size: 1.5rem;
+  }
+
+  .welcome h3 {
+    font-size: 1rem;
+  }
+
+  .btn-custom {
+    font-size: .8rem;
+  }
+
+  /* .footer-container {
+    padding: 10px 15px;
+  } */
+  /* .copy a span {
   font-size: 1rem;
 }
 
   .social i {
   font-size: 1rem;
   padding: 0;
-}
+  margin: 0 10px;
+} */
 }
 
 @media only screen and (min-width: 425px) {
@@ -245,12 +262,16 @@ ul.social {
   .btn-md {
   font-size: 1rem;
 }
+
+.footer-container {
+  padding: 15px 10px;
+} 
   
   .copy a span {
   font-size: 1.2rem;
-}
+} 
 
-  .social i {
+   .social i {
   font-size: 1.2rem;
 }
 }
@@ -292,6 +313,10 @@ ul.social {
   font-size: 1.1rem;
 }
 
+/* .footer-container {
+  padding: 15px 40px;
+} */
+
 .copy a span {
   font-size: 1.8rem;
 }
@@ -303,6 +328,7 @@ ul.social {
 }
 
 @media only screen and (min-width: 992px) {
+
   .copy a span {
   font-size: 2rem;
 }
