@@ -152,6 +152,8 @@ footer {
 .footer-container {
   display: flex;
   align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .copy {
@@ -232,6 +234,27 @@ ul.social {
 .welcome h3 {
   font-size: 1.5rem;
 }
+
+.copy a span {
+ font-size: 1.4rem;  
+} 
+
+.social i {
+ font-size: 1.4rem;
+ padding: 0;
+}
+}
+
+@media only screen and (max-width: 458px)  and (min-width: 425px) {
+
+  .copy a span {
+ font-size: 1.1rem;  
+} 
+
+.social i {
+ font-size: 1.1rem;
+ padding: 0;
+}
 }
 
 @media only screen and (max-width: 425px){
@@ -245,11 +268,11 @@ ul.social {
 }
 
 .copy a span {
- font-size: 1rem;  
+ font-size: 1.1rem;  
 } 
 
 .social i {
- font-size: 1rem;
+ font-size: 1.1rem;
  padding: 0;
 }
 
