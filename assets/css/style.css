@@ -114,6 +114,11 @@ section {
 #forecast {
   background: #e8e8e8;
 }
+
+.card {
+  padding: 10px;
+  margin: 10px;
+}
 /* ------------------------------------------------- Contact Form ------------------------------------------------- */
 
 .form-background {

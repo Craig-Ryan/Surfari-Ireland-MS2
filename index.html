@@ -2,14 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="Surfari Ireland" content="A surf report generating app for surf spots in Ireland" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="Surfari Ireland"
+      content="A surf report generating app for surf spots in Ireland"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Martel&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Martel&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -23,7 +35,15 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
       <div class="container">
         <a href="index.html" class="navbar-brand">Surfari Ireland</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="#navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="#navbarResponsive"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -51,7 +71,12 @@
       <div class="welcome-text">
         <h1>Surfari Ireland</h1>
         <h3>Current and upcoming surf reports for Ireland</h3>
-        <a href="#forecast" type="button" class="btn btn-lg btn-outline-dark btn-light btn-custom">Go to Surf Reports</a>
+        <a
+          href="#forecast"
+          type="button"
+          class="btn btn-lg btn-outline-dark btn-light btn-custom"
+          >Go to Surf Reports</a
+        >
       </div>
     </section>
 
@@ -63,15 +88,28 @@
             <h2 class="heading heading-container mb-5">About</h2>
           </div>
           <div class="col-md-12 col-lg-6">
-            <h3 class="text-dark font-weight-bold mb-3">Welcome to Surfari Ireland!</h3>
+            <h3 class="text-dark font-weight-bold mb-3">
+              Welcome to Surfari Ireland!
+            </h3>
             <p class="lead mb-4">
-              Surfari Ireland provides you with current and upcoming surf-forecasts at various Irish surf spots. Using the MagicSeaweed and Google Maps APIs to bring you accurate and detailed surf forecasts to make sure you're ready when
-              the next set rolls in.
+              Surfari Ireland provides you with current and upcoming
+              surf-forecasts at various Irish surf spots. Using the MagicSeaweed
+              and Google Maps APIs to bring you accurate and detailed surf
+              forecasts to make sure you're ready when the next set rolls in.
             </p>
-            <a href="#forecast" type="button" class="btn btn-custom btn-lg-dark btn-outline-dark mb-4">Get surf reports now!</a>
+            <a
+              href="#forecast"
+              type="button"
+              class="btn btn-custom btn-lg-dark btn-outline-dark mb-4"
+              >Get surf reports now!</a
+            >
           </div>
           <div class="col-md-12 col-lg-6 surfer">
-            <img src="assets/images/img5.jpg" alt="Surfer at sunset" class="w-100" />
+            <img
+              src="assets/images/img5.jpg"
+              alt="Surfer at sunset"
+              class="w-100"
+            />
           </div>
         </div>
       </div>
@@ -85,7 +123,59 @@
             <h2 class="heading heading-container mb-5">Surf Reports</h2>
           </div>
           <div class="col-12">
-            <p class="lead">Choose from the options below to generate the surf report for your chosen surf spot.</p>
+            <p class="lead">
+              Choose from the options below to generate the surf report for your
+              chosen surf spot.
+            </p>
+          </div>
+
+          <!-- Forecast Cards -->
+          <!-- Code copied from https://getbootstrap.com/docs/4.0/components/card/ -->
+          <div class="col-12">
+          <div class="card" style="width: 50%">
+            <img
+              class="card-img-top"
+              src="assets/images/donegal-surf.jpg"
+              alt="Image of Bundoran Surf Beach Donegal"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          </div>
+          <div class="col-12 justify-content-center">
+          <div class="card" style="width: 75%">
+            <img
+              class="card-img-top"
+              src="assets/images/sligo-surf.jpeg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-12">
+          <div class="card" style="width: 50%">
+            <img
+              class="card-img-top"
+              src="assets/images/lahinch-surf.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
           </div>
         </div>
       </div>
@@ -94,75 +184,118 @@
     <!------------------------------------------------------- Contact Form ------------------------------------------------------->
     <!-- Code copied from https://getbootstrap.com/docs/4.0/components/forms/ -->
     <section id="contact" class="form-background">
-        <div class="container jumbotron">
-          <div class="row mx-0 text-center">
-            <div class="col-12">
-              <h2 class="heading heading-container">Get in touch</h2>
-              <p class="lead mt-3">
-                Have anything you'd like to ask?<br />
-                Don't hesitate to contact us!
-              </p>
-            </div>
+      <div class="container jumbotron">
+        <div class="row mx-0 text-center">
+          <div class="col-12">
+            <h2 class="heading heading-container">Get in touch</h2>
+            <p class="lead mt-3">
+              Have anything you'd like to ask?<br />
+              Don't hesitate to contact us!
+            </p>
           </div>
-          <form class="w-75 mx-auto">
-            <div class="form-group">
-              <label for="firstname">First Name:</label>
-              <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First Name" required />
-            </div>
-            <div class="form-group">
-              <label for="lastname">Last Name:</label>
-              <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name" required />
-            </div>
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" name="email" class="form-control" id="email" placeholder="Email Address" required />
-            </div>
-            <div class="form-group">
-              <label for="comments">Your Comments:</label>
-              <textarea class="form-control" name="comments" id="comments" rows="5" required></textarea>
-            </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-              <label class="form-check-label" for="exampleCheck1">Click here to sign up for our news letter.</label>
-              <p>
-                <small><em>We will never share your personal information with anybody.</em></small>
-              </p>
-            </div>
-            <button type="submit" class="btn btn-md btn-outline-light mx-auto">Submit</button>
-          </form>
         </div>
+        <form class="w-75 mx-auto">
+          <div class="form-group">
+            <label for="firstname">First Name:</label>
+            <input
+              type="text"
+              name="firstname"
+              class="form-control"
+              id="firstname"
+              placeholder="First Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="lastname">Last Name:</label>
+            <input
+              type="text"
+              name="lastname"
+              class="form-control"
+              id="lastname"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="comments">Your Comments:</label>
+            <textarea
+              class="form-control"
+              name="comments"
+              id="comments"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Click here to sign up for our news letter.</label
+            >
+            <p>
+              <small
+                ><em
+                  >We will never share your personal information with
+                  anybody.</em
+                ></small
+              >
+            </p>
+          </div>
+          <button type="submit" class="btn btn-md btn-outline-light mx-auto">
+            Submit
+          </button>
+        </form>
+      </div>
     </section>
 
     <!------------------------------------------------------- Footer ------------------------------------------------------->
     <footer>
       <div class="container footer-container text-center">
-      <div class="copy">
+        <div class="copy">
           <a href="https://github.com/Craig-Ryan" target="_blank">
             <span>&copy; 2020 Copyright Surfari Ireland</span>
           </a>
+        </div>
+        <ul class="social">
+          <li>
+            <a href=""><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
       </div>
-            <ul class="social">
-              <li>
-                <a href=""><i class="fab fa-facebook"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="fab fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="fab fa-youtube"></i></a>
-              </li>
-            </ul>
-          </div>
     </footer>
 
     <!------------------------------------------------------- JavaScript Links ------------------------------------------------------->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/0471f2898e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/0471f2898e.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
