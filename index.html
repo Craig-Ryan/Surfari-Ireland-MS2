@@ -30,6 +30,17 @@
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
+    <!-- Email.js -->
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <!-- <script type="text/javascript">
+      (function(){
+          emailjs.init("user_81a4vgBmDtKAj1AkAJc3I");
+      })();
+    </script> -->
+
     <title>Surfari Ireland</title>
   </head>
 
@@ -229,7 +240,7 @@
             </p>
           </div>
         </div>
-        <form class="w-75 mx-auto">
+        <form onsubmit="return sendMail(this); class="w-75 mx-auto">
           <div class="form-group">
             <label for="firstname">First Name:</label>
             <input
