@@ -100,6 +100,16 @@ section {
   outline: none;
 }
 
+/* Code inspired from https://stackoverflow.com/questions/41874424/how-to-hide-and-replace-navbar-toggler-icon-in-bootstrap-4 */
+.navbar-toggler>.close {
+  color: inherit;
+  display: inline;
+}
+
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+  display: none;
+} 
+
 /* ------------------------------------------------- About Section ------------------------------------------------- */
 
 #about {
