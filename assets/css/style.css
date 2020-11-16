@@ -117,7 +117,15 @@ section {
 
 .card {
   padding: 10px;
-  margin: 10px;
+  margin: 15px;
+}
+
+.card-title {
+  background: #343a40;
+  color: #fff;
+  font-size: 1.8rem;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
 }
 
 .forecast-api {

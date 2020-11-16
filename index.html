@@ -155,13 +155,13 @@
           </div>
           </div>
           <div class="col-md-12 col-lg-6">
-          <div class="forecast-api">Test</div>
-          </div>
-          <div class="col-md-12 col-lg-6">
-          <div class="forecast-api">Test</div>
+          <div id="map" class="forecast-api"></div>
           </div>
 
           <!-- Card 2 -->
+          <div class="col-md-12 col-lg-6">
+            <div id="map-2" class="forecast-api"></div>
+          </div>
           <div data-aos="fade-left" data-aos-duration="3000" class="col-md-12 col-lg-6">
           <div class="card" style="width: 100%">
           <div class="card-title">Sligo</div>
@@ -197,7 +197,7 @@
           </div>
           </div>
           <div class="col-md-12 col-lg-6">
-          <div class="forecast-api">Test</div>
+          <div id="map-3" class="forecast-api"></div>
           </div>
           </div>
       </div>
@@ -314,11 +314,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/0471f2898e.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/0471f2898e.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd8vf80-FkBm40-jqEv4_hs_DHuPdL8Ug&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
     <!--Initialize AOS-->
     <script>AOS.init();</script>
     <script src="assets/js/script.js"></script>
