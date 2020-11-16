@@ -115,6 +115,10 @@ section {
   background: #e8e8e8;
 }
 
+#map {
+  min-height: 360px;
+}
+
 .card {
   padding: 10px;
   margin: 15px;
@@ -128,10 +132,6 @@ section {
   font-weight: 700;
 }
 
-.forecast-api {
-  width: 100%;
-  height: 100%;
-}
 /* ------------------------------------------------- Contact Form ------------------------------------------------- */
 
 .form-background {
