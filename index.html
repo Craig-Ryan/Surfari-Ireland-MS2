@@ -240,7 +240,7 @@
             </p>
           </div>
         </div>
-        <form onsubmit="return sendMail(this); class="w-75 mx-auto">
+        <form onsubmit="return sendMail(this);" class="w-75 mx-auto">
           <div class="form-group">
             <label for="firstname">First Name:</label>
             <input
@@ -348,6 +348,10 @@
     <script>AOS.init();</script>
     <script src="assets/js/map.js"></script>
     <script src="assets/js/email.js"></script>
+    <script>
+          (function() {
+          emailjs.init("user_81a4vgBmDtKAj1AkAJc3I");
+          })();</script>
     <script src="assets/js/scriptToggle.js"></script>
   </body>
 </html>
