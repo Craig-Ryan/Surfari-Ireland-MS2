@@ -119,6 +119,11 @@ section {
   padding: 10px;
   margin: 10px;
 }
+
+.forecast-api {
+  width: 100%;
+  height: 100%;
+}
 /* ------------------------------------------------- Contact Form ------------------------------------------------- */
 
 .form-background {

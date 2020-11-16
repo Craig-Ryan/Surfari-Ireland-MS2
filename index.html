@@ -23,6 +23,10 @@
       rel="stylesheet"
     />
 
+    <!-- AOS Stylesheet -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -116,6 +120,7 @@
     </section>
 
     <!------------------------------------------------------- Forecast Section ------------------------------------------------------->
+
     <section id="forecast">
       <div class="container my-5">
         <div class="row mx-0 container text-center">
@@ -128,11 +133,14 @@
               chosen surf spot.
             </p>
           </div>
+        
 
           <!-- Forecast Cards -->
           <!-- Code copied from https://getbootstrap.com/docs/4.0/components/card/ -->
-          <div class="col-12">
-          <div class="card" style="width: 50%">
+          <!-- Card 1 -->
+          <div data-aos="fade-right" data-aos-duration="3000" class="col-md-12 col-lg-6">
+          <div class="card" style="width: 100%">
+          <div class="card-title">Donegal</div>
             <img
               class="card-img-top"
               src="assets/images/donegal-surf.jpg"
@@ -146,8 +154,17 @@
             </div>
           </div>
           </div>
-          <div class="col-12 justify-content-center">
-          <div class="card" style="width: 75%">
+          <div class="col-md-12 col-lg-6">
+          <div class="forecast-api">Test</div>
+          </div>
+          <div class="col-md-12 col-lg-6">
+          <div class="forecast-api">Test</div>
+          </div>
+
+          <!-- Card 2 -->
+          <div data-aos="fade-left" data-aos-duration="3000" class="col-md-12 col-lg-6">
+          <div class="card" style="width: 100%">
+          <div class="card-title">Sligo</div>
             <img
               class="card-img-top"
               src="assets/images/sligo-surf.jpeg"
@@ -161,9 +178,11 @@
             </div>
           </div>
           </div>
-
-          <div class="col-12">
-          <div class="card" style="width: 50%">
+          
+          <!-- Card 3 -->
+          <div data-aos="fade-right" data-aos-duration="3000" class="col-md-12 col-lg-6">
+          <div class="card" style="width: 100%">
+          <div class="card-title">Clare</div>
             <img
               class="card-img-top"
               src="assets/images/lahinch-surf.jpg"
@@ -177,7 +196,10 @@
             </div>
           </div>
           </div>
-        </div>
+          <div class="col-md-12 col-lg-6">
+          <div class="forecast-api">Test</div>
+          </div>
+          </div>
       </div>
     </section>
 
@@ -266,12 +288,12 @@
     <!------------------------------------------------------- Footer ------------------------------------------------------->
     <footer>
       <div class="container footer-container text-center">
-        <div class="copy">
+        <div data-aos="fade-right" class="copy">
           <a href="https://github.com/Craig-Ryan" target="_blank">
             <span>&copy; 2020 Copyright Surfari Ireland</span>
           </a>
         </div>
-        <ul class="social">
+        <ul data-aos="fade-left" class="social">
           <li>
             <a href=""><i class="fab fa-facebook"></i></a>
           </li>
@@ -296,6 +318,9 @@
       src="https://kit.fontawesome.com/0471f2898e.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Initialize AOS-->
+    <script>AOS.init();</script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
