@@ -35,11 +35,11 @@
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
-    <!-- <script type="text/javascript">
-      (function(){
+    <script>
+          (function() {
           emailjs.init("user_81a4vgBmDtKAj1AkAJc3I");
-      })();
-    </script> -->
+          })();
+    </script>
 
     <title>Surfari Ireland</title>
   </head>
@@ -240,6 +240,7 @@
             </p>
           </div>
         </div>
+        
         <form onsubmit="return sendMail(this);" class="w-75 mx-auto">
           <div class="form-group">
             <label for="name">Your Name:</label>
@@ -252,17 +253,6 @@
               required
             />
           </div>
-          <!-- <div class="form-group">
-            <label for="lastname">Last Name:</label>
-            <input
-              type="text"
-              name="lastname"
-              class="form-control"
-              id="lastname"
-              placeholder="Last Name"
-              required
-            />
-          </div> -->
           <div class="form-group">
             <label for="email">Email:</label>
             <input
@@ -303,7 +293,7 @@
               >
             </p>
           </div>
-          <button type="submit" class="btn btn-md btn-outline-light mx-auto">
+          <button type="submit" value ="Send Email" class="btn btn-md btn-outline-light">
             Submit
           </button>
         </form>
@@ -348,11 +338,8 @@
     <!--Initialize AOS-->
     <script>AOS.init();</script>
     <script src="assets/js/map.js"></script>
-    <script src="assets/js/email.js"></script>
-    <script>
-          (function() {
-          emailjs.init("user_81a4vgBmDtKAj1AkAJc3I");
-          })();</script>
+    <script src="assets/js/sendEmail.js"></script>
+    
     <script src="assets/js/scriptToggle.js"></script>
   </body>
 </html>
