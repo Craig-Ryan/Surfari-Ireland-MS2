@@ -129,17 +129,22 @@ section {
   min-height: 360px;
 }
 
-.card {
-  padding: 10px;
-  margin: 15px;
-}
 
 .card-title {
   background: #343a40;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-family: "Amatic SC", sans-serif;
   font-weight: 700;
+}
+
+.report-list ul {
+  border: 2%;
+}
+
+.report-container img {
+  border-radius: 2%;
+  margin-bottom: 10px;
 }
 
 /* ------------------------------------------------- Contact Form ------------------------------------------------- */
