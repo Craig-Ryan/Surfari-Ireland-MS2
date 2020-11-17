@@ -16,7 +16,7 @@ var markers = [
   },
 
   {
-    latlong: {lat: 54.481584, lng: -8271604},
+    latlong: {lat: 54.481584, lng: -8.271604},
     content: "<h5>Bundoran Surf Co</h5><a href='index.html#bundoran'>Click here for more info</a>"
   },
 
