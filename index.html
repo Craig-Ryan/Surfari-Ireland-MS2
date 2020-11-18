@@ -2,26 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta
-      name="Surfari Ireland"
-      content="A surf report generating app for surf spots in Ireland"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="Surfari Ireland" content="A surf report generating app for surf spots in Ireland" />
+    <title>Surfari Ireland</title>
 
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Martel&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Martel&display=swap" rel="stylesheet" />
 
     <!-- AOS Stylesheet -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -31,52 +20,39 @@
 
     <!-- Email.js -->
 
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
-    ></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script>
       (function () {
         emailjs.init("user_81a4vgBmDtKAj1AkAJc3I");
       })();
     </script>
-
-    <title>Surfari Ireland</title>
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="150">
     <!------------------------------------------------------- Navbar ------------------------------------------------------->
     <!-- Remove and add more responsive nav -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-        <a href="index.html" class="navbar-brand">Surfari Ireland</a>
-        <button
-          class="navbar-toggler navbar-toggler-right collapsed"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="#navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="py-2 mx-2 close">X</span>
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#forecast">Surf Locations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <a href="index.html" class="navbar-brand">Surfari Ireland</a>
+      <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="#navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="py-2 mx-2 close">X</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#forecast">Surf Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- End Navbar -->
 
@@ -85,12 +61,7 @@
       <div class="welcome-text">
         <h1>Surfari Ireland</h1>
         <h3>Popular surf locations in Ireland</h3>
-        <a
-          href="#forecast"
-          type="button"
-          class="btn btn-lg btn-outline-dark btn-light btn-custom"
-          >Go to Surf Locations</a
-        >
+        <a href="#forecast" type="button" class="btn btn-lg btn-outline-dark btn-light btn-custom">Go to Surf Locations</a>
       </div>
     </section>
 
@@ -106,21 +77,13 @@
               Welcome to Surfari Ireland!
             </h3>
             <p class="lead mb-4">
-              Surfari Ireland provides you with a selection of various Irish surf spots. Using the Google Maps API to give you accurate locations or surf schools, local accommodation, places to eat and links to local surf forecasts. You're next surf trip is waiting!
+              Surfari Ireland provides you with a selection of various Irish surf spots. Using the Google Maps API to give you accurate locations or surf schools, local accommodation, places to eat and links to local surf forecasts. You're
+              next surf trip is waiting!
             </p>
-            <a
-              href="#forecast"
-              type="button"
-              class="btn btn-custom btn-lg-dark btn-outline-dark mb-4"
-              >Plan your trip now!</a
-            >
+            <a href="#forecast" type="button" class="btn btn-custom btn-lg-dark btn-outline-dark mb-4">Plan your trip now!</a>
           </div>
           <div class="col-md-12 col-lg-6 surfer">
-            <img
-              src="assets/images/img5.jpg"
-              alt="Surfer at sunset"
-              class="w-100"
-            />
+            <img src="assets/images/img5.jpg" alt="Surfer at sunset" class="w-100" />
           </div>
         </div>
       </div>
@@ -141,158 +104,158 @@
           </div>
         </div>
       </div>
-        <div class="container">
-          <div class="row">
-            <div class="container-fluid">
-              <div id="map"></div>
+      <div class="container">
+        <div class="row">
+          <div class="container-fluid">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Forecast Cards -->
+      <!-- Code copied from https://getbootstrap.com/docs/4.0/components/card/ -->
+      <!-- Card Section 1 -->
+      <div class="container my-5 cards-container">
+        <div class="container text-center">
+          <h2 id="bundoran" class="heading heading-card-title mx-0 my-5">Bundoran, Co. Donegal</h2>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="assets/images/bundoran-surf-co.png" alt="Bundoran Surf Co Logo" />
+              <div class="card-body">
+                <h5 class="card-title">Bundoran Surf Co</h5>
+                <p class="card-text">Located on Main St. Bundoran. Surf school, rentals and shop.</p>
+                <a href="https://bundoransurfco.com/" target="_blank" class="btn btn-primary">Visit Website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="assets/images/turfnsurf.png" alt="Turf N Surf Logo" />
+              <div class="card-body">
+                <h5 class="card-title">Turf N Surf Lodge</h5>
+                <p class="card-text">Budget accommodation located in the heart of Bundoran town.</p>
+                <a href="https://www.turfnsurftours.com/" target="_blank" class="btn btn-primary">Visit Website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="assets/images/chasin-bull.png" alt="The Chasin' Bull Logo" />
+              <div class="card-body">
+                <h5 class="card-title">The Chasin' Bull</h5>
+                <p class="card-text">Located on Main Street. The most lively bar in town. Ceol, ól agus craic.</p>
+                <a href="https://thechasinbull.com/" target="_blank" class="btn btn-primary">Visit Website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="assets/images/tullan.jpg" alt="Tullan Strand Image" />
+              <div class="card-body">
+                <h5 class="card-title">Tullan Strand</h5>
+                <p class="card-text">Local surf beach, suitable for beginner to advanced surfers.</p>
+                <a href="https://magicseaweed.com/Tullan-Strand-Surf-Report/4539/" target="_blank" class="btn btn-primary">View Surf Report</a>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Forecast Cards -->
-        <!-- Code copied from https://getbootstrap.com/docs/4.0/components/card/ -->
-        <!-- Card Section 1 -->
-        <div class="container my-5 cards-container">
-        <div class="container text-center">
-            <h2 id="bundoran" class="heading heading-card-title mx-0 my-5">Bundoran, Co. Donegal</h2>
-          </div>
-        <div class="row">
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-          <img class="card-img-top" src="assets/images/bundoran-surf-co.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Bundoran Surf Co</h5>
-            <p class="card-text">Located on Main St. Bundoran. Surf school, rentals and shop.</p>
-            <a href="https://bundoransurfco.com/" target="_blank" class="btn btn-primary">Visit Website</a>
-          </div>
-          </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-          <img class="card-img-top" src="assets/images/turfnsurf.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Turf N Surf Lodge</h5>
-            <p class="card-text">Budget accommodation located in the heart of Bundoran town.</p>
-            <a href="https://www.turfnsurftours.com/" target="_blank" class="btn btn-primary">Visit Website</a>
-          </div>
-          </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-          <img class="card-img-top" src="assets/images/chasin-bull.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">The Chasin' Bull</h5>
-            <p class="card-text">Located on Main Street. The most lively bar in town. Ceol, ól agus craic.</p>
-            <a href="https://thechasinbull.com/" target="_blank" class="btn btn-primary">Visit Website</a>
-          </div>
-          </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-          <img class="card-img-top" src="assets/images/tullan.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Tullan Strand</h5>
-            <p class="card-text">Local surf beach, suitable for beginner to advanced surfers.</p>
-            <a href="https://magicseaweed.com/Tullan-Strand-Surf-Report/4539/" target="_blank" class="btn btn-primary">View Surf Report</a>
-          </div>
-          </div>
-          </div>
-          </div>
-
         <!-- Card Section 2 -->
         <div class="container text-center">
-            <h2 id="strandhill" class="heading heading-card-title my-5">Strandhill, Co. Sligo</h2>
-          </div>
+          <h2 id="strandhill" class="heading heading-card-title my-5">Strandhill, Co. Sligo</h2>
+        </div>
         <div class="row">
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-          <img class="card-img-top" src="assets/images/strandhill-surf.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Strandhill Surf School</h5>
-            <p class="card-text">Surf rentals and lessons close to the beach.</p>
-            <a href="https://www.strandhillsurfschool.com/" target="_blank" class="btn btn-primary">Visit Website</a>
-          </div>
-          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="assets/images/strandhill-surf.png" alt="Strandhill Surf Co Logo" />
+              <div class="card-body">
+                <h5 class="card-title">Strandhill Surf School</h5>
+                <p class="card-text">Surf rentals and lessons close to the beach.</p>
+                <a href="https://www.strandhillsurfschool.com/" target="_blank" class="btn btn-primary">Visit Website</a>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-          <img class="card-img-top" src="assets/images/cf-logo.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Cois Farraige Lodge</h5>
-            <p class="card-text">Cozy lodging for winding down after a long day of surf.</p>
-            <a href="https://www.coisfarraigestrandhill.com/" target="_blank" class="btn btn-primary">Visit Website</a>
-          </div>
-          </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-          <img class="card-img-top" src="assets/images/venue.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">The Venue Bar & Grill</h5>
-            <p class="card-text">Classic pub grub and drinks to refuel after a long day.</p>
-            <a href="http://www.venuestrandhill.ie/" target="_blank" class="btn btn-primary">Visit Website</a>
-          </div>
-          </div>
+            <div class="card">
+              <img class="card-img-top" src="assets/images/cf-logo.jpg" alt="Coid Farraige Apartments" />
+              <div class="card-body">
+                <h5 class="card-title">Cois Farraige Lodge</h5>
+                <p class="card-text">Cozy lodging for winding down after a long day of surf.</p>
+                <a href="https://www.coisfarraigestrandhill.com/" target="_blank" class="btn btn-primary">Visit Website</a>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-          <img class="card-img-top" src="assets/images/sligo-surf.jpeg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Strandhill Beach</h5>
-            <p class="card-text">Surf beach with waves to suit all abilities. Rentals & lessons available nearby.</p>
-            <a href="https://magicseaweed.com/Strandhill-Surf-Report/51/" target="_blank" class="btn btn-primary">View Surf Report</a>
+            <div class="card">
+              <img class="card-img-top" src="assets/images/venue.jpg" alt="The Venue bar & Grill" />
+              <div class="card-body">
+                <h5 class="card-title">The Venue Bar & Grill</h5>
+                <p class="card-text">Classic pub grub and drinks to refuel after a long day.</p>
+                <a href="http://www.venuestrandhill.ie/" target="_blank" class="btn btn-primary">Visit Website</a>
+              </div>
+            </div>
           </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="assets/images/sligo-surf.jpeg" alt="Strandhill Beach Image" />
+              <div class="card-body">
+                <h5 class="card-title">Strandhill Beach</h5>
+                <p class="card-text">Surf beach with waves to suit all abilities. Rentals & lessons available nearby.</p>
+                <a href="https://magicseaweed.com/Strandhill-Surf-Report/51/" target="_blank" class="btn btn-primary">View Surf Report</a>
+              </div>
+            </div>
           </div>
-          </div>
-          </div>
+        </div>
         <!-- Card Section 3 -->
         <div class="container text-center">
-            <h2 id="lahinch" class="heading heading-card-title my-5">Lahinch, Co. Clare</h2>
-          </div>
+          <h2 id="lahinch" class="heading heading-card-title my-5">Lahinch, Co. Clare</h2>
+        </div>
         <div class="row">
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-          <img class="card-img-top" src="assets/images/bens.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Ben's Surf Clinic</h5>
-            <p class="card-text">Surf school and rentals located directly in front of the promenade in Lahinch.</p>
-            <a href="https://www.benssurfclinic.com/" target="_blank" class="btn btn-primary">Visit Website</a>
-          </div>
-          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="assets/images/bens.jpg" alt="Ben's Surf Clinic Logo" />
+              <div class="card-body">
+                <h5 class="card-title">Ben's Surf Clinic</h5>
+                <p class="card-text">Surf school and rentals located directly in front of the promenade in Lahinch.</p>
+                <a href="https://www.benssurfclinic.com/" target="_blank" class="btn btn-primary">Visit Website</a>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-          <img class="card-img-top" src="assets/images/lsh.PNG" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Lahinch Surf Hostel</h5>
-            <p class="card-text">Cheap and cheerful self-catering accommodation only meters from the beach.</p>
-            <a href="https://www.booking.com/hotel/ie/west-coast-lodge.en-gb.html" target="_blank" class="btn btn-primary">Visit Website</a>
-          </div>
-          </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-          <img class="card-img-top" src="assets/images/olooneys.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">O'Looney's Bar</h5>
-            <p class="card-text">Bar and restaurant located on Lahinch Promenade with great food & beautiful sea views.</p>
-            <a href="https://www.tripadvisor.ie/Restaurant_Review-g212533-d1058705-Reviews-O_Looney_s_Bar_and_Waves_Restaurant-Lahinch_County_Clare.html" target="_blank" class="btn btn-primary">Visit Website</a>
-          </div>
-          </div>
+            <div class="card">
+              <img class="card-img-top" src="assets/images/lsh.PNG" alt="Lahinch Hostel Logo" />
+              <div class="card-body">
+                <h5 class="card-title">Lahinch Surf Hostel</h5>
+                <p class="card-text">Cheap and cheerful self-catering accommodation only meters from the beach.</p>
+                <a href="https://www.booking.com/hotel/ie/west-coast-lodge.en-gb.html" target="_blank" class="btn btn-primary">Visit Website</a>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-          <img class="card-img-top" src="assets/images/lahinch-surf.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Lahinch Beach</h5>
-            <p class="card-text">Beach and point breaks a short walk from town. Suitable for beginners to advanced.</p>
-            <a href="https://magicseaweed.com/Lahinch-Cornish-Left-Surf-Report/1496/" target="_blank" class="btn btn-primary">View Surf Report</a>
+            <div class="card">
+              <img class="card-img-top" src="assets/images/olooneys.jpg" alt="O'Looney's Bar Lahinch" />
+              <div class="card-body">
+                <h5 class="card-title">O'Looney's Bar</h5>
+                <p class="card-text">Bar and restaurant located on Lahinch Promenade with great food & beautiful sea views.</p>
+                <a href="https://www.tripadvisor.ie/Restaurant_Review-g212533-d1058705-Reviews-O_Looney_s_Bar_and_Waves_Restaurant-Lahinch_County_Clare.html" target="_blank" class="btn btn-primary">Visit Website</a>
+              </div>
+            </div>
           </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="assets/images/lahinch-surf.jpg" alt="Lahinch Beach" />
+              <div class="card-body">
+                <h5 class="card-title">Lahinch Beach</h5>
+                <p class="card-text">Beach and point breaks a short walk from town. Suitable for beginners to advanced.</p>
+                <a href="https://magicseaweed.com/Lahinch-Cornish-Left-Surf-Report/1496/" target="_blank" class="btn btn-primary">View Surf Report</a>
+              </div>
+            </div>
           </div>
-          </div>
-          </div>
-          </div>
-        <!-- End Cards Section -->
+        </div>
+      </div>
+      <!-- End Cards Section -->
     </section>
 
     <!------------------------------------------------------- Contact Form ------------------------------------------------------->
@@ -312,60 +275,24 @@
         <form onsubmit="return sendMail(this);" class="w-75 mx-auto">
           <div class="form-group">
             <label for="name">Your Name:</label>
-            <input
-              type="text"
-              name="name"
-              class="form-control"
-              id="firstname"
-              placeholder="Name"
-              required
-            />
+            <input type="text" name="name" class="form-control" id="name" placeholder="Name" required />
           </div>
           <div class="form-group">
             <label for="email">Email:</label>
-            <input
-              type="email"
-              name="email"
-              class="form-control"
-              id="email"
-              placeholder="Email Address"
-              required
-            />
+            <input type="email" name="email" class="form-control" id="email" placeholder="Email Address" required />
           </div>
           <div class="form-group">
             <label for="comments">Your Comments:</label>
-            <textarea
-              class="form-control"
-              name="comments"
-              id="comments"
-              rows="5"
-              placeholder="Write your message here..."
-              required
-            ></textarea>
+            <textarea class="form-control" name="comments" id="comments" rows="5" placeholder="Write your message here..." required></textarea>
           </div>
           <div class="form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" for="exampleCheck1"
-              >Click here to sign up for our newsletter.</label
-            >
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+            <label class="form-check-label" for="exampleCheck1">Click here to sign up for our newsletter.</label>
             <p>
-              <small
-                ><em
-                  >We will never share your personal information with
-                  anybody.</em
-                ></small
-              >
+              <small><em>We will never share your personal information with anybody.</em></small>
             </p>
           </div>
-          <button
-            type="submit"
-            value="Send Email"
-            class="btn btn-md btn-outline-light"
-          >
+          <button type="submit" value="Send Email" class="btn btn-md btn-outline-light">
             Submit
           </button>
         </form>
@@ -401,18 +328,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/0471f2898e.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/0471f2898e.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Google Maps -->
     <script src="assets/js/map.js"></script>
-    <script
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd8vf80-FkBm40-jqEv4_hs_DHuPdL8Ug&callback=initMap&libraries=&v=weekly"
-    ></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd8vf80-FkBm40-jqEv4_hs_DHuPdL8Ug&callback=initMap&libraries=&v=weekly"></script>
     <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
 
     <!--Initialize AOS-->

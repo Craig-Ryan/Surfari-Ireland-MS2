@@ -1,9 +1,9 @@
 # Surfari Ireland
-<!-- Image here -->
-<!-- Link to the live site here -->
+![image](assets/images/responsive-img.PNG)
+[GitHub Pages Live Site](https://craig-ryan.github.io/Surfari-Ireland-MS2/index.html/)
 
 <h2>Overview</h2>
-This project's aim is to provide an interactive webstite that allows users to search for current and future surf forecasts in various surfing locations around Ireland as well as information relating to nearby surf schools, rentals and/or accommodation. 
+This project's aim is to provide an interactive website that allows users to search through various surfing locations around Ireland as well as information relating to nearby surf schools, rentals and/or accommodation. 
 
 ## Table of contents:
 > - [UX](#ux)
@@ -26,94 +26,138 @@ This project aims to provide surfers or people interested in learning to surf wi
 
 ### User Stories
 
-> - _"I want to be able to find out what current and future forecasts look like for a specific location"_
-> - _"I want information such as swell height, wind direction, wave height and tidal information to be available"_
+> - _"I want to be able to find information regarding surf forecasts for that location"_
 > - _"I want to know if there are surf schools, rentals, accommodation and/or places to eat nearby"_
 > - _"I want to be able to get in touch to find out any information that isn't made readily available on the site"_
 > - _"I want a site that is intuitive and requires minimal navigation to find the information I want"_
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+### Site Owner Stories
 
-As a user type, I want to perform an action, so that I can achieve a goal.
+> - _"I want users to be able to easily navigate through the site"_
+> - _"I want to give users the opportunity to discover new points of interest for their next surf trip"_
+> - _"I want users to be able to contact me if they need further information"_
+
 ### Wireframes
+A single page landing area was designed for ease of navigation for users across mobile, tablet and desktop screen sizes.
 > - [Wireframes](https://github.com/Craig-Ryan/Surfari-Ireland-MS2/blob/master/assets/Wireframes/Milestone%20Project%202%20Wireframes.pdf) - View Wireframes in a separate folder.
 
 ## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ### Existing Features
-> - 
-> - 
+Navigation: The site is entirely navigable by a fixed navigation bar which contains links to each section of the site. 
+
+Google Maps API: The Google Maps API has been optimized to give users a visual representation of where sites of interest, pinned as markers, included in the page can be found.
+
+EmailJs: EmailJS was added to allow for users to contact the site owner directly and with ease.
 
 ### Features Left to Implement
-> - 
-> - 
-Another feature idea
+
+Magic Seaweed API: Unfortunately the API key for the Magicseaweed was unavailable when making this project. If it were available it would have been implemented to give users the ability to see surf forecasts directly within the site.
+
+Info Windows when clicked do not automatically close when another marker is clicked on. Due to inexperience and time constraints I was unable to fix this.
+
+The collapsable navbar on clicking menu items does not close automatically. I did not have the time or ability to amend this.
+
+Dropdowns for surf locations would have been implemented if time permitted.
 
 
 ## Technologies Used
-### Languages Used:
 > [HTML5](https://en.wikipedia.org/wiki/HTML5)
 >
 > [CSS3](https://en.wikipedia.org/wiki/CSS)
 >
 > [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+>
+> [Bootstrap](https://getbootstrap.com/)
+>
+> [Google Maps API](https://developers.google.com/maps/documentation)
+>
+> [EmailJS](https://www.emailjs.com/)
+>
+> [GitHub](https://github.com/)
+>
+> [GitPod](https://www.gitpod.io/)
+>
+> [Google Fonts](https://fonts.google.com/)
+>
+> [Font Awesome](https://fontawesome.com/start)
+
+## Tools Used
+
+> - [Balsamiq](https://balsamiq.com/) - For designing the design of this project.
+> - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - For designing the desired outcome of this project.
+> - [W3C HTML Validator](https://validator.w3.org/nu/#textarea) - For designing the desired outcome of this project.
+> - [Amiresponsive](http://ami.responsivedesign.is/#) - For viewing responsiveness across devices..
 
 
-### Libraries Used:
-> [jQuery]
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+## Testing 
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-> - [Git](https://git-scm.com/) - Used for version control and making changes to code files.
-> - [Github](https://github.com/) - Used to host the Git repositories for this project on the cloud.
+> - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+Ran CSS code through validator. Some minor issues arose relating to preloaded Bootstrap or AOS libraries. Nothing major found and no effects on website itself. Issues were left for now.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+> - [W3C HTML Validator](https://validator.w3.org/nu/#textarea)
+Ran HTML code through validator. Some minor issues arose relating to preloaded Bootstrap or AOS libraries. Nothing major found and no effects on website itself. Issues were left for now.
+![image](assets/images/test-errors.PNG)
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 ### Resources
 > - [Global Surfari](https://safaritownsurf.com/shop/books/global-surfari) - Original book and inspiration for this project.
 > - [TinyPng](https://tinypng.com/) - Resource for scaling down image sizes to load faster on the site.
 > - [YouTube](https://www.youtube.com/) - For additional advice when building this project.
-> - [Balsamiq](https://balsamiq.com/) - For designing the desired outcome of this project.
+> - [Pexels](https://www.pexels.com/) - For free images when building this project.
+> - [Pixabay](https://pixabay.com/) - For free images when building this project.
 
 ## Testing
 
+Tested using [Amiresponsive](http://ami.responsivedesign.is/#)across all manners screen sizes from mobile up to large desktop monitors.
+
+Design met expectations across all screen and device widths.
+
+Tested across multiple internet explorers including Chrome, Microsoft Edge, Brave and Ecosia.
+
+Viewed on iPhone X, Samsung A-50 mobile phones as well as iPad Pro.
+
 ### Issues Encountered
 
-## Version Control
+Menu dropdown responsive navbar does not close after being clicked.
 
-
-## Code Validation
+Info Windows in Google Map do not close when a new marker is clicked.
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+This project used [GitPod](https://www.gitpod.io/) and [GitHub](https://github.com/) for version control.<br>
+A live version of this project can be viewed on [GitHub Pages](https://craig-ryan.github.io/Surfari-Ireland-MS2/index.html)<br>
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+To open this project follow these steps:
+1. Log in to GitHub and go to my [repository](https://craig-ryan.github.io/Surfari-Ireland-MS2/index.html).
+1. Click on settings near the top right of the page and scroll down to the pages section.
+1. A live version of the page is inside the green box.
+1. Click to open.
+
+## Design 
+
+This project followed a simple design structure. 
+
+The main fonts used were "Matel" & "Amatic SC".
+
+### Colors Used
+1. #b2deec for hovered links.
+1. #373a40 for background colors in some sections and headings.
+1. #000 & #fff for simple text contrast.
 
 ## Credits
 ### Content
-The text for section Y was copied from the Wikipedia article Z
+Written content within this project was written by me.
+
 ### Media
-The photos used in this site were obtained from ...
+Photos used, other than those from the sites already referenced above are from the locations websites or social media.
+
+[Map Icons Collection](https://mapicons.mapsmarker.com/) provided me with the unique map pins for the Google Maps markers.
+
 ### Acknowledgements
-I received inspiration for this project from X
+A massive thank you to the team at Code Institute for the insightful lessons that lead to this project for being possible.
+
+A special thank you to my mentor, Akshat Garg, for taking the time to help me through the most difficult parts of this project.
+
+The Code Institute Slack Community, as always, were tremendously helpful with any queries I had relating to this project.
+
+As I am an absolute beginner with regards to JavaScript I used this [Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw) by Traversy Media to assist me in implementing the Google Map on this project.  
