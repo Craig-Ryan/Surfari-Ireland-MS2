@@ -265,16 +265,8 @@ ul.social {
   font-size: 1.5rem;
 }
 
-/* .card {
-  width: 50%;
-} */
-.copy a span {
- font-size: 1.4rem;  
-} 
-
-.social i {
- font-size: 1.4rem;
- padding: 0;
+footer {
+  padding: 10px 20px;
 }
 }
 
@@ -308,6 +300,9 @@ ul.social {
  font-size: 1.1rem;
  padding: 0;
 }
+
+footer {
+  padding: 10px 20px;
 
 }
 
