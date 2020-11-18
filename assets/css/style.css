@@ -265,6 +265,18 @@ ul.social {
   font-size: 1.5rem;
 }
 
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 1rem;
+}
+
+.btn-primary {
+  font-size: 1rem;
+}
+
 footer {
   padding: 10px 20px;
 }
@@ -292,6 +304,17 @@ footer {
   font-size: 1.2rem;
 }
 
+.card-title {
+  font-size: 1rem;
+}
+
+.card p {
+  font-size: .8rem;
+}
+.btn-primary {
+  font-size: .8rem;
+}
+
 .copy a span {
  font-size: 1.1rem;  
 } 
@@ -305,5 +328,3 @@ footer {
   padding: 10px 20px;
 
 }
-
-
