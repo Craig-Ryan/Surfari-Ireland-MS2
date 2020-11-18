@@ -36,6 +36,7 @@ In particular, as part of this section we recommend that you provide a list of U
 
 As a user type, I want to perform an action, so that I can achieve a goal.
 ### Wireframes
+> - [Wireframes](https://github.com/Craig-Ryan/Surfari-Ireland-MS2/blob/master/assets/Wireframes/Milestone%20Project%202%20Wireframes.pdf) - View Wireframes in a separate folder.
 
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.

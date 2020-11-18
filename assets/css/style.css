@@ -296,6 +296,9 @@ footer {
 
 @media only screen and (max-width: 425px){
 
+.navbar-brand {
+  font-size: 1.5rem;
+}
 .welcome h1 {
   font-size: 1.8rem;
 }
