@@ -48,7 +48,6 @@
     <!------------------------------------------------------- Navbar ------------------------------------------------------->
     <!-- Remove and add more responsive nav -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-      <div class="container">
         <a href="index.html" class="navbar-brand">Surfari Ireland</a>
         <button
           class="navbar-toggler navbar-toggler-right collapsed"
@@ -71,14 +70,13 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#forecast">Surf Reports</a>
+              <a class="nav-link" href="#forecast">Surf Locations</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
-      </div>
     </nav>
     <!-- End Navbar -->
 
@@ -86,12 +84,12 @@
     <section id="home" class="welcome">
       <div class="welcome-text">
         <h1>Surfari Ireland</h1>
-        <h3>Current and upcoming surf reports for Ireland</h3>
+        <h3>Popular surf locations in Ireland</h3>
         <a
           href="#forecast"
           type="button"
           class="btn btn-lg btn-outline-dark btn-light btn-custom"
-          >Go to Surf Reports</a
+          >Go to Surf Locations</a
         >
       </div>
     </section>
@@ -108,10 +106,7 @@
               Welcome to Surfari Ireland!
             </h3>
             <p class="lead mb-4">
-              Surfari Ireland provides you with current and upcoming
-              surf-forecasts at various Irish surf spots. Using the MagicSeaweed
-              and Google Maps APIs to bring you accurate and detailed surf
-              forecasts to make sure you're ready when the next set rolls in.
+              Surfari Ireland provides you with a selection of various Irish surf spots. Using the Google Maps API to give you accurate locations or surf schools, local accommodation, places to eat and links to local surf forecasts. You're next surf trip is waiting!
             </p>
             <a
               href="#forecast"
@@ -137,16 +132,15 @@
       <div class="container my-5">
         <div class="row mx-0 container text-center">
           <div class="col-12">
-            <h2 class="heading heading-container mb-5">Surf Reports</h2>
+            <h2 class="heading heading-container mb-5">Surf Locations</h2>
           </div>
           <div class="col-12">
             <p class="lead">
-              Choose from the options below to generate the surf report for your
-              chosen surf spot.
+              Choose from the options below to view popular Irish surf spots, surf schools, acccommodation and places to eat nearby.
             </p>
           </div>
         </div>
-
+      </div>
         <div class="container">
           <div class="row">
             <div class="container">
@@ -157,8 +151,149 @@
 
         <!-- Forecast Cards -->
         <!-- Code copied from https://getbootstrap.com/docs/4.0/components/card/ -->
-        <!-- Card 1 -->
-        <div class="container report-container my-5">
+        <!-- Card Section 1 -->
+        <div class="container-fluid my-5 cards-container">
+        <div class="container text-center">
+            <h2 class="heading heading-card-title mx-0 my-5">Bundoran, Co. Donegal</h2>
+          </div>
+        <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img class="card-img-top" src="assets/images/surf-icon.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Bundoran Surf Co</h5>
+            <p class="card-text">Located on Main St. Bundoran, surf school, rentals and shop.</p>
+            <a href="https://bundoransurfco.com/" target="_blank" class="btn btn-primary">Visit Website</a>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img class="card-img-top" src="assets/images/turfnsurf.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Turf N Surf Lodge</h5>
+            <p class="card-text">Budget accommodation located in the heart of Bundoran town.</p>
+            <a href="https://www.turfnsurftours.com/" target="_blank" class="btn btn-primary">Visit Website</a>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img class="card-img-top" src="assets/images/chasin-bull.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">The Chasin' Bull</h5>
+            <p class="card-text">Head to the most lively bar in town. Ceol, ól agus craic.</p>
+            <a href="https://thechasinbull.com/" target="_blank" class="btn btn-primary">Visit Website</a>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img class="card-img-top" src="assets/images/donegal-surf.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Tullan Strand</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="https://magicseaweed.com/Tullan-Strand-Surf-Report/4539/" target="_blank" class="btn btn-primary">View Surf Report</a>
+          </div>
+          </div>
+          </div>
+          </div>
+
+        <!-- Card Section 2 -->
+        <div class="container text-center">
+            <h2 class="heading heading-card-title my-5">Strandhill, Co. Sligo</h2>
+          </div>
+        <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Visit Website</a>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Visit Website</a>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Visit Website</a>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Visit Website</a>
+          </div>
+          </div>
+          </div>
+          </div>
+        <!-- Card Section 3 -->
+        <div class="container text-center">
+            <h2 class="heading heading-card-title my-5">Lahinch, Co. Clare</h2>
+          </div>
+        <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Visit Website</a>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Visit Website</a>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Visit Website</a>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Visit Website</a>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+        <!-- End Cards Section -->
+        <!-- <div class="container report-container my-5">
         <div class="row mx-0">
           <div class="col-12 text-center">
             <h3 class="card-title heading-container mb-5">Donegal, Bundoran</h3>
@@ -172,121 +307,23 @@
           </div>
           <div class="col-md-12 col-lg-6">
             <div class="report-list text-dark">
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item"><h5>Surf School/Rentals:</h5>
+                <ul class=" ">
+                <li class=""><h5>Surf School/Rentals:</h5>
                   <a href="https://bundoransurfco.com/" target="_blank">Bundoran Surf Co</a></li>
-                <li class="list-group-item"><h5>Where to stay?</h5>
+                <li class=""><h5>Where to stay?</h5>
                   <a href="https://www.turfnsurftours.com/" target="_blank">Turf N Surf Tours</a></li>
-                <li class="list-group-item"><h5>Where to eat?</h5>
+                <li class=""><h5>Where to eat?</h5>
                   <a href="https://thechasinbull.com/" target="_blank">The Chasin' Bull</a></li>
-                  <li class="list-group-item"><h5>Local Surf Report:</h5>
+                  <li class=""><h5>Local Surf Report:</h5>
                   <a href="https://magicseaweed.com/Tullan-Strand-Surf-Report/4539/" target="_blank">Tullan Strand Surf Report</a></li>
                 </ul>
               </div>
           </div>
           
         </div>
-      </div>
-        <!-- <div class="row">
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            class="col-12 col-md-6"
-          >
-            <div class="card mx-0" style="width: 100%">
-              <div class="card-title text-center">Donegal, Bundoran</div>
-              <img
-                class="card-img-top"
-                src="assets/images/donegal-surf.jpg"
-                alt="Image of Bundoran Surf Beach Donegal"
-              />
-              <div class="card-body">
-                 <p class="card-text">
-                  Nestled in the north-west of Ireland in Co. Donegal, this town is world famous for it's friendly locals and world class waves.
-                </p> 
-              </div>
-            </div>
-          </div>
-          Bundoran Card 
-          <div target="_blank" class="col-12 col-md-6">
-            <div
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-              class="card mb-3"
-              style="width: 100% height: 100%"
-            >
-              <div class="text-dark">
-                <h5 class="card-title text-center py-1">Donegal, Bundoran</h5>
-                <div class="bg-transparent">
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item"><h5>Surf School/Rentals:</h5>
-                  <a href="https://bundoransurfco.com/" target="_blank">Bundoran Surf Co</a></li>
-                <li class="list-group-item"><h5>Where to stay?</h5>
-                  <a href="https://www.turfnsurftours.com/" target="_blank">Turf N Surf Tours</a></li>
-                <li class="list-group-item"><h5>Where to eat?</h5>
-                  <a href="https://thechasinbull.com/" target="_blank">The Chasin' Bull</a></li>
-                  <li class="list-group-item"><h5>Local Surf Report:</h5>
-                  <a href="https://magicseaweed.com/Tullan-Strand-Surf-Report/4539/" target="_blank">Tullan Strand Surf Report</a></li>
-                </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-         Card 2
-          <div class="d-none d-md-block col-md-6">
-            <div class="forecast-api mx-0">Test 2</div>
-          </div>
-          <div
-            data-aos="fade-left"
-            data-aos-duration="2000"
-            class="col-12 col-md-6"
-          >
-            <div class="card mx-0" style="width: 100%">
-              <div class="card-title">Sligo, Strandhill</div>
-              <img
-                class="card-img-top"
-                src="assets/images/sligo-surf.jpeg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 d-md-none">
-            <div class="forecast-api mx-0">Test 2</div>
-          </div>
-
-           Card 3 
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            class="col-12 col-md-6"
-          >
-            <div class="card mx-0" style="width: 100%">
-              <div class="card-title">Clare</div>
-              <img
-                class="card-img-top"
-                src="assets/images/lahinch-surf.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="forecast-api mx-0">Test 3</div>
-          </div>
-        </div> -->
-      </div>
+      </div> -->
+        
+      
     </section>
 
     <!------------------------------------------------------- Contact Form ------------------------------------------------------->
@@ -368,7 +405,7 @@
 
     <!------------------------------------------------------- Footer ------------------------------------------------------->
     <footer>
-      <div class="container footer-container text-center">
+      <div class="container-fluid footer-container text-center">
         <div class="copy">
           <a href="https://github.com/Craig-Ryan" target="_blank">
             <span>&copy; 2020 Copyright Surfari Ireland</span>

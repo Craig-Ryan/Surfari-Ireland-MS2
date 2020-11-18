@@ -86,6 +86,7 @@ section {
   font-size: 1.3rem;
   letter-spacing: 0.15rem;
   background-color: #343a40;
+  padding: 10px 40px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -129,8 +130,11 @@ section {
   min-height: 360px;
 }
 
+.card {
+  margin-bottom: 20px;
+}
 
-.card-title {
+.heading-card-title {
   background: #343a40;
   color: #fff;
   font-size: 2.5rem;
@@ -138,14 +142,6 @@ section {
   font-weight: 700;
 }
 
-.report-list ul {
-  border: 2%;
-}
-
-.report-container img {
-  border-radius: 2%;
-  margin-bottom: 10px;
-}
 
 /* ------------------------------------------------- Contact Form ------------------------------------------------- */
 
@@ -179,6 +175,7 @@ footer {
   background-color: #373a40;
   color: #fff;
   display: flex;
+  padding: 10px 50px;
   overflow-x: hidden;
 }
 
@@ -236,8 +233,6 @@ ul.social {
 
 @media only screen and (max-width: 1440px){
 
-}
-
 @media only screen and (max-width: 1024px){
 
 }
@@ -268,6 +263,9 @@ ul.social {
   font-size: 1.5rem;
 }
 
+/* .card {
+  width: 50%;
+} */
 .copy a span {
  font-size: 1.4rem;  
 } 
